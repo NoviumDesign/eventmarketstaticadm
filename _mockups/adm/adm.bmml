@@ -1,0 +1,46 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1411" measuredH="708" mockupW="1371" mockupH="686">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="41" y="22" w="1370" h="686" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Eventmarket%20ADM</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Canvas" x="41" y="95" w="1370" h="70" measuredW="100" measuredH="70" zOrder="1" locked="false" isInGroup="-1"/>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::IconLabel" x="56" y="106" w="-1" h="-1" measuredW="159" measuredH="48" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>StarIcon%7Clarge</icon>
+        <labelPosition>right</labelPosition>
+        <text>Eventmarket%20ADM</text>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="__group__" x="1235" y="118" w="161" h="24" measuredW="161" measuredH="24" zOrder="3" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::ComboBox" x="0" y="0" w="-1" h="-1" measuredW="161" measuredH="24" zOrder="0" locked="false" isInGroup="7">
+          <controlProperties>
+            <state>up</state>
+            <text>Inloggad%20som%3A%20Sterner</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::Icon" x="1188" y="114" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <icon>SearchIcon%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::Icon" x="1148" y="114" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <icon>GearIcon%7Cmedium</icon>
+      </controlProperties>
+    </control>
+    <control controlID="20" controlTypeID="com.balsamiq.mockups::Component" x="40" y="162" w="273" h="338" measuredW="273" measuredH="338" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <override controlID="0" x="0" y="0" w="273" h="338"/>
+        <override controlID="-1"/>
+        <src>./assets/symbols.bmml#ADM-huvudmeny</src>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

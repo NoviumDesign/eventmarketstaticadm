@@ -1,0 +1,55 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1411" measuredH="921" mockupW="1370" mockupH="899">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="41" y="22" w="1370" h="899" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Eventmarket%20ADM</text>
+      </controlProperties>
+    </control>
+    <control controlID="22" controlTypeID="com.balsamiq.mockups::Title" x="341" y="180" w="-1" h="-1" measuredW="233" measuredH="43" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Erbjudanden</text>
+      </controlProperties>
+    </control>
+    <control controlID="33" controlTypeID="com.balsamiq.mockups::Component" x="41" y="95" w="1370" h="70" measuredW="1370" measuredH="70" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/symbols.bmml%23ADM-meny</src>
+      </controlProperties>
+    </control>
+    <control controlID="57" controlTypeID="com.balsamiq.mockups::Component" x="41" y="161" w="273" h="383" measuredW="273" measuredH="383" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <override controlID="0">
+          <selectedIndex>12</selectedIndex>
+          <text>Profilsidor%0AKundv%E5rd%20%28CRM%29%20%26%20s%E4ljst%F6d%0A-%20Kundkort%0A-%20Kommande%20kontakter%0A-%20Kundkortshistorik%0A%D6ppna%20f%F6rfr%E5gningar%0A%28Formul%E4rssida%29%0AProdukter%0ASidor%0AMailutskick%0ABiljetter%0ARedaktion%0AErbjudanden%0ATr%E4dkategorier</text>
+        </override>
+        <src>./assets/symbols.bmml%23ADM-huvudmeny</src>
+      </controlProperties>
+    </control>
+    <control controlID="58" controlTypeID="com.balsamiq.mockups::DataGrid" x="341" y="258" w="1041" h="215" measuredW="587" measuredH="85" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <hasHeader>true</hasHeader>
+        <hLines>false</hLines>
+        <rowHeight>16</rowHeight>
+        <text>Status%2C%20Rubrik%20%5E%2C%20Knutet%20till%20%28f%F6retag%20och%20presentationssida%29%2CT.o.m.%20%5Ev%2C%20typ%0A%2CBoka%20Anders%20Lundin%20%2C%20Lindau%20produktion%5CrAnders%20Lundin%2C%202013-12-22%2C%20Jul%0A%2CBoka%20Anders%20Lundin%20%2C%20Lindau%20produktion%5CrAnders%20Lundin%2C%202013-12-22%2C%20Normalt%0A%7B3L%2C%2035%2C%2035%2C%200C%7D</text>
+        <vLines>true</vLines>
+      </controlProperties>
+    </control>
+    <control controlID="59" controlTypeID="com.balsamiq.mockups::SearchBox" x="1261" y="225" w="-1" h="-1" measuredW="120" measuredH="25" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>S%F6k</text>
+      </controlProperties>
+    </control>
+    <control controlID="61" controlTypeID="com.balsamiq.mockups::ComboBox" x="1162" y="225" w="88" h="-1" measuredW="71" measuredH="24" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <state>closed</state>
+        <text>Filtrera%0AJul%0ANormalt</text>
+      </controlProperties>
+    </control>
+    <control controlID="63" controlTypeID="com.balsamiq.mockups::Button" x="341" y="224" w="-1" h="-1" measuredW="119" measuredH="27" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>2848996</color>
+        <text>Nytt%20erbjudande</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

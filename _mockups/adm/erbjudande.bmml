@@ -1,0 +1,132 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1411" measuredH="1624" mockupW="1370" mockupH="1602">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="41" y="22" w="1370" h="899" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Eventmarket%20ADM</text>
+      </controlProperties>
+    </control>
+    <control controlID="22" controlTypeID="com.balsamiq.mockups::Title" x="341" y="180" w="-1" h="-1" measuredW="211" measuredH="43" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Erbjudande</text>
+      </controlProperties>
+    </control>
+    <control controlID="33" controlTypeID="com.balsamiq.mockups::Component" x="41" y="95" w="1370" h="70" measuredW="1370" measuredH="70" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/symbols.bmml%23ADM-meny</src>
+      </controlProperties>
+    </control>
+    <control controlID="57" controlTypeID="com.balsamiq.mockups::Component" x="41" y="161" w="273" h="383" measuredW="273" measuredH="383" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <override controlID="0">
+          <selectedIndex>12</selectedIndex>
+          <text>Profilsidor%0AKundv%E5rd%20%28CRM%29%20%26%20s%E4ljst%F6d%0A-%20Kundkort%0A-%20Kommande%20kontakter%0A-%20Kundkortshistorik%0A%D6ppna%20f%F6rfr%E5gningar%0A%28Formul%E4rssida%29%0AProdukter%0ASidor%0AMailutskick%0ABiljetter%0ARedaktion%0AErbjudanden%0ATr%E4dkategorier</text>
+        </override>
+        <src>./assets/symbols.bmml%23ADM-huvudmeny</src>
+      </controlProperties>
+    </control>
+    <control controlID="58" controlTypeID="com.balsamiq.mockups::Canvas" x="341" y="229" w="1055" h="33" measuredW="100" measuredH="70" zOrder="4" locked="false" isInGroup="-1"/>
+    <control controlID="59" controlTypeID="com.balsamiq.mockups::Label" x="350" y="235" w="-1" h="-1" measuredW="84" measuredH="21" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <text>Titel%20%26%20texter</text>
+      </controlProperties>
+    </control>
+    <control controlID="60" controlTypeID="com.balsamiq.mockups::Canvas" x="341" y="258" w="1055" h="455" measuredW="100" measuredH="70" zOrder="6" locked="false" isInGroup="-1"/>
+    <control controlID="61" controlTypeID="com.balsamiq.mockups::Label" x="350" y="267" w="-1" h="-1" measuredW="117" measuredH="21" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Titel%20p%E5%20erbjudande</text>
+      </controlProperties>
+    </control>
+    <control controlID="62" controlTypeID="com.balsamiq.mockups::TextInput" x="350" y="288" w="443" h="-1" measuredW="79" measuredH="26" zOrder="8" locked="false" isInGroup="-1"/>
+    <control controlID="65" controlTypeID="com.balsamiq.mockups::Label" x="350" y="324" w="-1" h="-1" measuredW="52" measuredH="21" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Br%F6dtext</text>
+      </controlProperties>
+    </control>
+    <control controlID="66" controlTypeID="com.balsamiq.mockups::TextArea" x="350" y="345" w="443" h="225" measuredW="200" measuredH="140" zOrder="10" locked="false" isInGroup="-1"/>
+    <control controlID="67" controlTypeID="com.balsamiq.mockups::Canvas" x="341" y="720" w="1055" h="33" measuredW="100" measuredH="70" zOrder="11" locked="false" isInGroup="-1"/>
+    <control controlID="68" controlTypeID="com.balsamiq.mockups::Label" x="350" y="726" w="-1" h="-1" measuredW="80" measuredH="21" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <text>Layout%20%26%20bild</text>
+      </controlProperties>
+    </control>
+    <control controlID="69" controlTypeID="com.balsamiq.mockups::Canvas" x="341" y="749" w="1055" h="251" measuredW="100" measuredH="70" zOrder="13" locked="false" isInGroup="-1"/>
+    <control controlID="73" controlTypeID="com.balsamiq.mockups::Label" x="350" y="759" w="-1" h="-1" measuredW="47" measuredH="21" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>V%E4lj%20bild</text>
+      </controlProperties>
+    </control>
+    <control controlID="74" controlTypeID="com.balsamiq.mockups::Button" x="351" y="786" w="141" h="34" measuredW="136" measuredH="27" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>2848996</color>
+        <icon>DownloadIcon%7Csmall</icon>
+        <text>Ladda%20upp%20bild</text>
+      </controlProperties>
+    </control>
+    <control controlID="75" controlTypeID="com.balsamiq.mockups::Canvas" x="341" y="1010" w="1055" h="33" measuredW="100" measuredH="70" zOrder="16" locked="false" isInGroup="-1"/>
+    <control controlID="76" controlTypeID="com.balsamiq.mockups::Label" x="350" y="1016" w="-1" h="-1" measuredW="27" measuredH="21" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <text>SEO</text>
+      </controlProperties>
+    </control>
+    <control controlID="77" controlTypeID="com.balsamiq.mockups::Canvas" x="341" y="1039" w="1055" h="271" measuredW="100" measuredH="70" zOrder="18" locked="false" isInGroup="-1"/>
+    <control controlID="78" controlTypeID="com.balsamiq.mockups::Label" x="350" y="1052" w="-1" h="-1" measuredW="53" measuredH="21" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Titeltagg</text>
+      </controlProperties>
+    </control>
+    <control controlID="79" controlTypeID="com.balsamiq.mockups::TextInput" x="350" y="1073" w="251" h="-1" measuredW="79" measuredH="26" zOrder="20" locked="false" isInGroup="-1"/>
+    <control controlID="80" controlTypeID="com.balsamiq.mockups::Label" x="350" y="1114" w="-1" h="-1" measuredW="187" measuredH="21" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Beskrivning%20%28META-description%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="81" controlTypeID="com.balsamiq.mockups::TextInput" x="350" y="1135" w="251" h="-1" measuredW="79" measuredH="26" zOrder="22" locked="false" isInGroup="-1"/>
+    <control controlID="82" controlTypeID="com.balsamiq.mockups::Label" x="350" y="1230" w="-1" h="-1" measuredW="26" measuredH="21" zOrder="23" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>URL</text>
+      </controlProperties>
+    </control>
+    <control controlID="83" controlTypeID="com.balsamiq.mockups::TextInput" x="350" y="1251" w="251" h="-1" measuredW="106" measuredH="27" zOrder="24" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>/tips-till-talaren</text>
+      </controlProperties>
+    </control>
+    <control controlID="84" controlTypeID="com.balsamiq.mockups::Paragraph" x="352" y="1284" w="-1" h="-1" measuredW="200" measuredH="80" zOrder="25" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Endast%20A-Z%20samt%20bindesstreck.</text>
+      </controlProperties>
+    </control>
+    <control controlID="85" controlTypeID="com.balsamiq.mockups::Label" x="350" y="1170" w="-1" h="-1" measuredW="164" measuredH="21" zOrder="26" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Nyckelord%20%28META-keywords%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="86" controlTypeID="com.balsamiq.mockups::TextInput" x="350" y="1191" w="251" h="-1" measuredW="79" measuredH="26" zOrder="27" locked="false" isInGroup="-1"/>
+    <control controlID="87" controlTypeID="com.balsamiq.mockups::Button" x="686" y="318" w="-1" h="-1" measuredW="106" measuredH="27" zOrder="28" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Infoga%20en%20l%E4nk</text>
+      </controlProperties>
+    </control>
+    <control controlID="88" controlTypeID="com.balsamiq.mockups::Canvas" x="341" y="1324" w="1055" h="33" measuredW="100" measuredH="70" zOrder="29" locked="false" isInGroup="-1"/>
+    <control controlID="89" controlTypeID="com.balsamiq.mockups::Canvas" x="341" y="1353" w="1055" h="271" measuredW="100" measuredH="70" zOrder="30" locked="false" isInGroup="-1"/>
+    <control controlID="90" controlTypeID="com.balsamiq.mockups::Label" x="350" y="1330" w="-1" h="-1" measuredW="61" measuredH="21" zOrder="31" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <text>Knutet%20till</text>
+      </controlProperties>
+    </control>
+    <control controlID="91" controlTypeID="com.balsamiq.mockups::Label" x="350" y="1364" w="-1" h="-1" measuredW="55" measuredH="21" zOrder="32" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Profilsida</text>
+      </controlProperties>
+    </control>
+    <control controlID="93" controlTypeID="com.balsamiq.mockups::ComboBox" x="350" y="1385" w="-1" h="-1" measuredW="162" measuredH="24" zOrder="33" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>V%E4lj%20presentationssida</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

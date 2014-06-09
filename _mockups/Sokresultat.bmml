@@ -1,0 +1,202 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1224" measuredH="1708" mockupW="1201" mockupH="1684">
+  <controls>
+    <control controlID="1" controlTypeID="__group__" x="24" y="24" w="1200" h="1684" measuredW="1200" measuredH="1684" zOrder="0" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="0" y="0" w="1200" h="1684" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="1">
+          <controlProperties>
+            <customID>Browser%20Window</customID>
+            <text>Web%20page%0Ahttp%3A//eventmarket.com</text>
+            <value>0</value>
+            <verticalScrollbar>false</verticalScrollbar>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Canvas" x="23" y="89" w="1198" h="117" measuredW="100" measuredH="70" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>1</backgroundAlpha>
+        <borderColor>0</borderColor>
+        <borderStyle>square</borderStyle>
+        <color>16777215</color>
+        <customID>Canvas</customID>
+        <value>0</value>
+        <verticalScrollbar>false</verticalScrollbar>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::Title" x="72" y="240" w="-1" h="-1" measuredW="433" measuredH="28" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <bold>false</bold>
+        <color>0x0</color>
+        <customID>Title</customID>
+        <italic>false</italic>
+        <size>25</size>
+        <text>Visar%20resultat%20f%F6r%20kategorin%20%22Catering%22</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::SubTitle" x="78" y="883" w="-1" h="-1" measuredW="296" measuredH="21" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <bold>false</bold>
+        <color>0x0</color>
+        <customID>Subtitle</customID>
+        <italic>false</italic>
+        <size>18</size>
+        <text>Visa%20ytterligare%20113%20eventarrang%F6rer</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::SubTitle" x="197" y="308" w="-1" h="-1" measuredW="166" measuredH="21" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <bold>false</bold>
+        <color>0x0</color>
+        <customID>Subtitle</customID>
+        <italic>false</italic>
+        <size>18</size>
+        <text>Annorlunda%20catering</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::Image" x="76" y="308" w="94" h="85" measuredW="77" measuredH="79" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <customID>Image</customID>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::SubTitle" x="197" y="419" w="-1" h="-1" measuredW="113" measuredH="21" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <bold>false</bold>
+        <color>0x0</color>
+        <customID>Subtitle</customID>
+        <italic>false</italic>
+        <size>18</size>
+        <text>Chokladbudet</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::Paragraph" x="197" y="443" w="460" h="72" measuredW="200" measuredH="80" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <bold>false</bold>
+        <color>0x0</color>
+        <customID>Paragraph</customID>
+        <italic>false</italic>
+        <size>14</size>
+        <text>Chokladbudet.se%20%E4lskar%20att%20skicka%20chokladaskar%20%26%20sm%E5%20chokladpresenter%20%F6ver%20hela%20Sverige%20varje%20dag%21%20L%E5t%20oss%20leverera%20choklad%20att%20dina%20kunder%20%26%20v%E4nner%21</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::SubTitle" x="197" y="531" w="-1" h="-1" measuredW="125" measuredH="21" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <bold>false</bold>
+        <color>0x0</color>
+        <customID>Subtitle</customID>
+        <italic>false</italic>
+        <size>18</size>
+        <text>Flygande%20k%F6ket</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::SubTitle" x="196" y="647" w="-1" h="-1" measuredW="111" measuredH="21" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <bold>false</bold>
+        <color>0x0</color>
+        <customID>Subtitle</customID>
+        <italic>false</italic>
+        <size>18</size>
+        <text>Skickat%E5ta.se</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::Paragraph" x="197" y="675" w="460" h="72" measuredW="200" measuredH="80" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <bold>false</bold>
+        <color>0x0</color>
+        <customID>Paragraph</customID>
+        <italic>false</italic>
+        <size>14</size>
+        <text>Skicka%20en%20t%E5rta%20n%E4r%20du%20vill%20g%F6ra%20tillst%E4llningen%20till%20ett%20starkare%20och%20roligare%20minne.%20Ex.%20logot%E5rtor%2C%20f%F6retagst%E5rtor%2C%20f%F6delsedagst%E5tor%2C%20kalas%20eller%20studenten.</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::SubTitle" x="197" y="759" w="-1" h="-1" measuredW="100" measuredH="21" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <bold>false</bold>
+        <color>0x0</color>
+        <customID>Subtitle</customID>
+        <italic>false</italic>
+        <size>18</size>
+        <text>Rent%20a%20Chef</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::Paragraph" x="197" y="787" w="460" h="72" measuredW="200" measuredH="80" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <bold>false</bold>
+        <color>0x0</color>
+        <customID>Paragraph</customID>
+        <italic>false</italic>
+        <size>14</size>
+        <text>Hyr%20en%20kock%20genom%20oss%20till%20er%20n%E4sta%20event%2C%20fest.%20Genom%20oss%20hyr%20du%20professionella%20kockar%20till%20din%20evenemang.</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::Paragraph" x="197" y="333" w="460" h="72" measuredW="200" measuredH="80" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <bold>false</bold>
+        <color>0x0</color>
+        <customID>Paragraph</customID>
+        <italic>false</italic>
+        <size>14</size>
+        <text>Annorlunda%20Catering%2C%20Stockholm%20med%20l%E5ng%20erfarenhet%20levererar%20mat%20till%20alla%20typer%20av%20arrangemang%20som%20firmafest%2C%20galamiddag%2C%20julfest%2C%20dop%2C%20br%F6llop%2C%20invigning</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::Image" x="76" y="419" w="94" h="85" measuredW="77" measuredH="79" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <customID>Image</customID>
+      </controlProperties>
+    </control>
+    <control controlID="17" controlTypeID="com.balsamiq.mockups::Image" x="76" y="531" w="94" h="85" measuredW="77" measuredH="79" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <customID>Image</customID>
+      </controlProperties>
+    </control>
+    <control controlID="18" controlTypeID="com.balsamiq.mockups::Paragraph" x="197" y="557" w="460" h="72" measuredW="200" measuredH="80" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <bold>false</bold>
+        <color>0x0</color>
+        <customID>Paragraph</customID>
+        <italic>false</italic>
+        <size>14</size>
+        <text>Flygande%20K%F6ket%20-%20Catering%20Stockholm%20erbjuder%20catering%20till%20konferens%2C%20fest%20och%20br%F6llop%20samt%20%E4ven%20vinprovningar%20och%20matlagningskurser.</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="19" controlTypeID="com.balsamiq.mockups::Image" x="77" y="647" w="94" h="85" measuredW="77" measuredH="79" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <customID>Image</customID>
+      </controlProperties>
+    </control>
+    <control controlID="20" controlTypeID="com.balsamiq.mockups::Image" x="77" y="759" w="94" h="85" measuredW="77" measuredH="79" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <customID>Image</customID>
+      </controlProperties>
+    </control>
+    <control controlID="21" controlTypeID="com.balsamiq.mockups::Component" x="72" y="102" w="1114" h="91" measuredW="1114" measuredH="91" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22740%2C97%2C1162%2C122%22%20href%3D%22eventmarket_Autocomplete%2520search.bmml%22%20alt%3D%22eventmarket_Autocomplete%20search%22%20id%3D%224%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22740%2C97%2C1162%2C122%22%20href%3D%22eventmarket_Autocomplete%2520search.bmml%22%20alt%3D%22eventmarket_Autocomplete%20search%22%20id%3D%224%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22957%2C197%2C1379%2C222%22%20href%3D%22eventmarket_Autocomplete%2520search.bmml%22%20alt%3D%22eventmarket_Autocomplete%20search%22%20id%3D%224%22/%3E</map>
+        <src>./assets/symbols.bmml#Main-menu</src>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

@@ -1,0 +1,303 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="504" measuredH="1698" mockupW="481" mockupH="1684">
+  <controls>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="24" y="14" w="480" h="1684" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <customID>Browser%20Window</customID>
+        <text>Eventmarket%0Ahttp%3A//eventmarket.com</text>
+        <value>0</value>
+        <verticalScrollbar>false</verticalScrollbar>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::Image" x="24" y="134" w="126" h="156" measuredW="77" measuredH="79" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <customID>Image</customID>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Icon" x="29" y="254" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <color>0</color>
+        <customID>Icon</customID>
+        <icon>DotIcon%7Csmall</icon>
+        <rotation>0</rotation>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::Icon" x="75" y="254" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <color>0</color>
+        <customID>Icon</customID>
+        <icon>DotHollowIcon%7Csmall</icon>
+        <rotation>0</rotation>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::Icon" x="50" y="254" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <color>0</color>
+        <customID>Icon</customID>
+        <icon>DotHollowIcon%7Csmall</icon>
+        <rotation>0</rotation>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::Canvas" x="23" y="1444" w="480" h="232" measuredW="100" measuredH="70" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>1</backgroundAlpha>
+        <borderColor>0</borderColor>
+        <borderStyle>square</borderStyle>
+        <color>16777215</color>
+        <customID>Canvas</customID>
+        <value>0</value>
+        <verticalScrollbar>false</verticalScrollbar>
+      </controlProperties>
+    </control>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::SubTitle" x="40" y="1464" w="-1" h="-1" measuredW="94" measuredH="21" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <bold>false</bold>
+        <color>0x0</color>
+        <customID>Subtitle</customID>
+        <italic>false</italic>
+        <size>18</size>
+        <text>Nyhetsbrev</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::Icon" x="40" y="1632" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <color>0</color>
+        <customID>Icon</customID>
+        <icon>FacebookIcon%7Csmall</icon>
+        <rotation>0</rotation>
+      </controlProperties>
+    </control>
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::Icon" x="64" y="1632" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <color>0</color>
+        <customID>Icon</customID>
+        <icon>GoogleIcon%7Csmall</icon>
+        <rotation>0</rotation>
+      </controlProperties>
+    </control>
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::Icon" x="88" y="1632" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <color>0</color>
+        <customID>Icon</customID>
+        <icon>TwitterIcon%7Csmall</icon>
+        <rotation>0</rotation>
+      </controlProperties>
+    </control>
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::SubTitle" x="160" y="1464" w="-1" h="-1" measuredW="53" measuredH="21" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <bold>false</bold>
+        <color>0x0</color>
+        <customID>Subtitle</customID>
+        <italic>false</italic>
+        <size>18</size>
+        <text>Rubrik</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="15" controlTypeID="com.balsamiq.mockups::SubTitle" x="260" y="1464" w="-1" h="-1" measuredW="53" measuredH="21" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <bold>false</bold>
+        <color>0x0</color>
+        <customID>Subtitle</customID>
+        <italic>false</italic>
+        <size>18</size>
+        <text>Rubrik</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::List" x="40" y="1488" w="-1" h="-1" measuredW="100" measuredH="126" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>false</bold>
+        <borderStyle>none</borderStyle>
+        <color>16777215</color>
+        <customID>List</customID>
+        <hasHeader>false</hasHeader>
+        <italic>false</italic>
+        <rowHeight>25</rowHeight>
+        <selectedIndex>-1</selectedIndex>
+        <size>12</size>
+        <text>Item%201%0AItem%202%0AItem%203</text>
+        <underline>false</underline>
+        <value>0</value>
+        <verticalScrollbar>false</verticalScrollbar>
+      </controlProperties>
+    </control>
+    <control controlID="17" controlTypeID="com.balsamiq.mockups::List" x="156" y="1488" w="-1" h="-1" measuredW="100" measuredH="126" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>false</bold>
+        <borderStyle>none</borderStyle>
+        <color>16777215</color>
+        <customID>List</customID>
+        <hasHeader>false</hasHeader>
+        <italic>false</italic>
+        <rowHeight>25</rowHeight>
+        <selectedIndex>-1</selectedIndex>
+        <size>12</size>
+        <text>Item%201%0AItem%202%0AItem%203</text>
+        <underline>false</underline>
+        <value>0</value>
+        <verticalScrollbar>false</verticalScrollbar>
+      </controlProperties>
+    </control>
+    <control controlID="18" controlTypeID="com.balsamiq.mockups::List" x="256" y="1488" w="-1" h="-1" measuredW="100" measuredH="126" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>false</bold>
+        <borderStyle>none</borderStyle>
+        <color>16777215</color>
+        <customID>List</customID>
+        <hasHeader>false</hasHeader>
+        <italic>false</italic>
+        <rowHeight>25</rowHeight>
+        <selectedIndex>-1</selectedIndex>
+        <size>12</size>
+        <text>Item%201%0AItem%202%0AItem%203</text>
+        <underline>false</underline>
+        <value>0</value>
+        <verticalScrollbar>false</verticalScrollbar>
+      </controlProperties>
+    </control>
+    <control controlID="19" controlTypeID="com.balsamiq.mockups::Icon" x="69" y="95" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <color>0</color>
+        <customID>Icon</customID>
+        <icon>SearchIcon%7Cmedium</icon>
+        <rotation>0</rotation>
+      </controlProperties>
+    </control>
+    <control controlID="20" controlTypeID="com.balsamiq.mockups::Icon" x="106" y="95" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <color>0</color>
+        <customID>Icon</customID>
+        <icon>ListIcon%7Cmedium</icon>
+        <rotation>0</rotation>
+      </controlProperties>
+    </control>
+    <control controlID="28" controlTypeID="com.balsamiq.mockups::Label" x="324" y="1633" w="-1" h="-1" measuredW="157" measuredH="20" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <bold>false</bold>
+        <color>0</color>
+        <customID>Label</customID>
+        <italic>false</italic>
+        <size>12</size>
+        <text>Copyright%20Eventmarket%202013</text>
+        <textOrientation>right</textOrientation>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="42" controlTypeID="com.balsamiq.mockups::SubTitle" x="357" y="1464" w="-1" h="-1" measuredW="53" measuredH="21" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <bold>false</bold>
+        <color>0x0</color>
+        <customID>Subtitle</customID>
+        <italic>false</italic>
+        <size>18</size>
+        <text>Rubrik</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="43" controlTypeID="com.balsamiq.mockups::List" x="351" y="1488" w="-1" h="-1" measuredW="100" measuredH="126" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>false</bold>
+        <borderStyle>none</borderStyle>
+        <color>16777215</color>
+        <customID>List</customID>
+        <hasHeader>false</hasHeader>
+        <italic>false</italic>
+        <rowHeight>25</rowHeight>
+        <selectedIndex>-1</selectedIndex>
+        <size>12</size>
+        <text>Item%201%0AItem%202%0AItem%203</text>
+        <underline>false</underline>
+        <value>0</value>
+        <verticalScrollbar>false</verticalScrollbar>
+      </controlProperties>
+    </control>
+    <control controlID="44" controlTypeID="com.balsamiq.mockups::Canvas" x="159" y="591" w="345" h="849" measuredW="100" measuredH="70" zOrder="20" locked="false" isInGroup="-1"/>
+    <control controlID="45" controlTypeID="com.balsamiq.mockups::Title" x="182" y="616" w="58" h="-1" measuredW="58" measuredH="26" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <bold>false</bold>
+        <color>0x0</color>
+        <customID>Title</customID>
+        <italic>false</italic>
+        <size>23</size>
+        <text>Blogg</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="46" controlTypeID="com.balsamiq.mockups::Canvas" x="143" y="85" w="359" h="1591" measuredW="100" measuredH="70" zOrder="22" locked="false" isInGroup="-1"/>
+    <control controlID="47" controlTypeID="com.balsamiq.mockups::Accordion" x="143" y="132" w="358" h="83" measuredW="150" measuredH="159" zOrder="23" locked="false" isInGroup="-1">
+      <controlProperties>
+        <hrefs>eventmarket%26bm%3Beventmarket.bmml%26bm%3Beventmarket.bmml%26bm%3Beventmarket.bmml%2Ceventmarket_Konferens%26bm%3Beventmarket_Konferens.bmml%26bm%3Beventmarket_Konferens.bmml%26bm%3Beventmarket_Konferens.bmml%2Ceventmarket_biljett%26bm%3Beventmarket_biljett.bmml%26bm%3Beventmarket_biljett.bmml%26bm%3Beventmarket_biljett.bmml</hrefs>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22120%2C118%2C478%2C148%22%20href%3D%22eventmarket.bmml%22%20alt%3D%22eventmarket%22%20id%3D%2247%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22120%2C145%2C478%2C175%22%20href%3D%22eventmarket_Konferens.bmml%22%20alt%3D%22eventmarket_Konferens%22%20id%3D%2247%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22120%2C172%2C478%2C202%22%20href%3D%22eventmarket_biljett.bmml%22%20alt%3D%22eventmarket_biljett%22%20id%3D%2247%22/%3E%0A</map>
+        <selectedIndex>-1</selectedIndex>
+        <text>Event%0AKonferens%0ABiljett</text>
+      </controlProperties>
+    </control>
+    <control controlID="48" controlTypeID="com.balsamiq.mockups::Icon" x="415" y="494" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="24" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <color>0</color>
+        <customID>Icon</customID>
+        <icon>DotIcon%7Csmall</icon>
+        <rotation>0</rotation>
+      </controlProperties>
+    </control>
+    <control controlID="49" controlTypeID="com.balsamiq.mockups::Icon" x="462" y="494" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="25" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <color>0</color>
+        <customID>Icon</customID>
+        <icon>DotHollowIcon%7Csmall</icon>
+        <rotation>0</rotation>
+      </controlProperties>
+    </control>
+    <control controlID="50" controlTypeID="com.balsamiq.mockups::Icon" x="438" y="494" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="26" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <color>0</color>
+        <customID>Icon</customID>
+        <icon>DotHollowIcon%7Csmall</icon>
+        <rotation>0</rotation>
+      </controlProperties>
+    </control>
+    <control controlID="51" controlTypeID="com.balsamiq.mockups::SubTitle" x="150" y="96" w="-1" h="-1" measuredW="150" measuredH="27" zOrder="27" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Byt%20avdelning</text>
+      </controlProperties>
+    </control>
+    <control controlID="52" controlTypeID="com.balsamiq.mockups::SubTitle" x="150" y="222" w="-1" h="-1" measuredW="128" measuredH="27" zOrder="28" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Huvudmeny</text>
+      </controlProperties>
+    </control>
+    <control controlID="53" controlTypeID="com.balsamiq.mockups::Accordion" x="143" y="253" w="358" h="1297" measuredW="150" measuredH="321" zOrder="29" locked="false" isInGroup="-1">
+      <controlProperties>
+        <hrefs>eventmarket%26bm%3Beventmarket.bmml%26bm%3Beventmarket.bmml%26bm%3Beventmarket.bmml%2C%2C%2C%2Ceventmarket_Blogg%26bm%3Beventmarket_Blogg.bmml%26bm%3Beventmarket_Blogg.bmml%26bm%3Beventmarket_Blogg.bmml%2C%2C%2Ceventmarket_bildarkiv%26bm%3Beventmarket_bildarkiv.bmml%26bm%3Beventmarket_bildarkiv.bmml%26bm%3Beventmarket_bildarkiv.bmml%2Ceventmarket_erbjudande%26bm%3Beventmarket_erbjudande.bmml%26bm%3Beventmarket_erbjudande.bmml%26bm%3Beventmarket_erbjudande.bmml</hrefs>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22120%2C239%2C478%2C269%22%20href%3D%22eventmarket.bmml%22%20alt%3D%22eventmarket%22%20id%3D%2253%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22120%2C347%2C478%2C377%22%20href%3D%22eventmarket_Blogg.bmml%22%20alt%3D%22eventmarket_Blogg%22%20id%3D%2253%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22120%2C428%2C478%2C458%22%20href%3D%22eventmarket_bildarkiv.bmml%22%20alt%3D%22eventmarket_bildarkiv%22%20id%3D%2253%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22120%2C455%2C478%2C485%22%20href%3D%22eventmarket_erbjudande.bmml%22%20alt%3D%22eventmarket_erbjudande%22%20id%3D%2253%22/%3E%0A</map>
+        <selectedIndex>-1</selectedIndex>
+        <text>Startsida%0AOm%20oss%0AAnnonsering%0ATips%20och%20r%E5d%0AKvitter/nyheter/blogg%0A%D6ppen%20f%F6rfr%E5gan%0ABackstage%0ABildarkivet%0AErbjudanden</text>
+      </controlProperties>
+    </control>
+    <control controlID="54" controlTypeID="com.balsamiq.mockups::Icon" x="458" y="93" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="30" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>eventmarket%26bm%3Beventmarket.bmml%26bm%3Beventmarket.bmml%26bm%3Beventmarket.bmml</href>
+        <icon>CircledXIcon%7Cmedium</icon>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22435%2C79%2C467%2C111%22%20href%3D%22eventmarket.bmml%22%20alt%3D%22eventmarket%22%20id%3D%2254%22/%3E</map>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

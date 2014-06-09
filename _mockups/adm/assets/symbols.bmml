@@ -1,0 +1,56 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1430" measuredH="469" mockupW="1370" mockupH="449">
+  <controls>
+    <control controlID="0" controlTypeID="__group__" x="60" y="20" w="1370" h="70" measuredW="1370" measuredH="70" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <controlName>ADM-meny</controlName>
+      </controlProperties>
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="1370" h="70" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="0">
+          <controlProperties/>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::IconLabel" x="15" y="11" w="-1" h="-1" measuredW="159" measuredH="48" zOrder="1" locked="false" isInGroup="0">
+          <controlProperties>
+            <icon>StarIcon%7Clarge</icon>
+            <labelPosition>right</labelPosition>
+            <text>Eventmarket%20ADM</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="__group__" x="1194" y="23" w="161" h="24" measuredW="161" measuredH="24" zOrder="2" locked="false" isInGroup="0">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::ComboBox" x="0" y="0" w="-1" h="-1" measuredW="161" measuredH="24" zOrder="0" locked="false" isInGroup="2">
+              <controlProperties>
+                <state>up</state>
+                <text>Inloggad%20som%3A%20Sterner</text>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Icon" x="1147" y="19" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="3" locked="false" isInGroup="0">
+          <controlProperties>
+            <borderStyle>square</borderStyle>
+            <icon>SearchIcon%7Cmedium</icon>
+          </controlProperties>
+        </control>
+        <control controlID="4" controlTypeID="com.balsamiq.mockups::Icon" x="1107" y="19" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="4" locked="false" isInGroup="0">
+          <controlProperties>
+            <borderStyle>square</borderStyle>
+            <icon>GearIcon%7Cmedium</icon>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="1" controlTypeID="__group__" x="60" y="86" w="273" h="383" measuredW="273" measuredH="383" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <controlName>ADM-huvudmeny</controlName>
+      </controlProperties>
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Accordion" x="0" y="0" w="273" h="383" measuredW="172" measuredH="402" zOrder="0" locked="false" isInGroup="1">
+          <controlProperties>
+            <selectedIndex>-1</selectedIndex>
+            <text>Profilsidor%0AKundv%E5rd%20%28CRM%29%20%26%20s%E4ljst%F6d%0A-%20Kundkort%0A-%20Kommande%20kontakter%0A-%20Kundkortshistorik%0A%D6ppna%20f%F6rfr%E5gningar%0A%28Formul%E4rssida%29%0AProdukter%0ASidor%0AMailutskick%0ABiljetter%0ARedaktion%0AErbjudanden%0ATr%E4dkategorier%0AEkonomi</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+  </controls>
+</mockup>

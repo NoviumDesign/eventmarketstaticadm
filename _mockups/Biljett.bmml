@@ -1,0 +1,232 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1325" measuredH="1707" mockupW="1310" mockupH="1684">
+  <controls>
+    <control controlID="1" controlTypeID="__group__" x="15" y="23" w="1200" h="1684" measuredW="1200" measuredH="1684" zOrder="0" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="0" y="0" w="1200" h="1684" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="1">
+          <controlProperties>
+            <customID>Browser%20Window</customID>
+            <text>Web%20page%0Ahttp%3A//eventmarket.com</text>
+            <value>0</value>
+            <verticalScrollbar>false</verticalScrollbar>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="32" controlTypeID="com.balsamiq.mockups::Label" x="1004" y="1638" w="-1" h="-1" measuredW="157" measuredH="20" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <bold>false</bold>
+        <color>0</color>
+        <customID>Label</customID>
+        <italic>false</italic>
+        <size>12</size>
+        <text>Copyright%20Eventmarket%202013</text>
+        <textOrientation>right</textOrientation>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="33" controlTypeID="__group__" x="19" y="1450" w="1200" h="232" measuredW="1200" measuredH="232" zOrder="1" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="34" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="1200" h="232" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="33">
+          <controlProperties>
+            <backgroundAlpha>1</backgroundAlpha>
+            <borderColor>0</borderColor>
+            <borderStyle>square</borderStyle>
+            <color>16777215</color>
+            <customID>Canvas</customID>
+            <value>0</value>
+            <verticalScrollbar>false</verticalScrollbar>
+          </controlProperties>
+        </control>
+        <control controlID="35" controlTypeID="com.balsamiq.mockups::SubTitle" x="49" y="20" w="-1" h="-1" measuredW="94" measuredH="21" zOrder="1" locked="false" isInGroup="33">
+          <controlProperties>
+            <align>left</align>
+            <bold>false</bold>
+            <color>0x0</color>
+            <customID>Subtitle</customID>
+            <italic>false</italic>
+            <size>18</size>
+            <text>Nyhetsbrev</text>
+            <underline>false</underline>
+          </controlProperties>
+        </control>
+        <control controlID="36" controlTypeID="com.balsamiq.mockups::Icon" x="49" y="188" w="24" h="24" measuredW="24" measuredH="24" zOrder="2" locked="false" isInGroup="33">
+          <controlProperties>
+            <borderStyle>none</borderStyle>
+            <color>0</color>
+            <customID>Icon</customID>
+            <icon>FacebookIcon%7Csmall</icon>
+            <rotation>0</rotation>
+          </controlProperties>
+        </control>
+        <control controlID="37" controlTypeID="com.balsamiq.mockups::Icon" x="73" y="188" w="24" h="24" measuredW="24" measuredH="24" zOrder="3" locked="false" isInGroup="33">
+          <controlProperties>
+            <borderStyle>none</borderStyle>
+            <color>0</color>
+            <customID>Icon</customID>
+            <icon>GoogleIcon%7Csmall</icon>
+            <rotation>0</rotation>
+          </controlProperties>
+        </control>
+        <control controlID="38" controlTypeID="com.balsamiq.mockups::Icon" x="97" y="188" w="24" h="24" measuredW="24" measuredH="24" zOrder="4" locked="false" isInGroup="33">
+          <controlProperties>
+            <borderStyle>none</borderStyle>
+            <color>0</color>
+            <customID>Icon</customID>
+            <icon>TwitterIcon%7Csmall</icon>
+            <rotation>0</rotation>
+          </controlProperties>
+        </control>
+        <control controlID="39" controlTypeID="com.balsamiq.mockups::SubTitle" x="169" y="20" w="-1" h="-1" measuredW="53" measuredH="21" zOrder="5" locked="false" isInGroup="33">
+          <controlProperties>
+            <align>left</align>
+            <bold>false</bold>
+            <color>0x0</color>
+            <customID>Subtitle</customID>
+            <italic>false</italic>
+            <size>18</size>
+            <text>Rubrik</text>
+            <underline>false</underline>
+          </controlProperties>
+        </control>
+        <control controlID="40" controlTypeID="com.balsamiq.mockups::SubTitle" x="289" y="20" w="-1" h="-1" measuredW="53" measuredH="21" zOrder="6" locked="false" isInGroup="33">
+          <controlProperties>
+            <align>left</align>
+            <bold>false</bold>
+            <color>0x0</color>
+            <customID>Subtitle</customID>
+            <italic>false</italic>
+            <size>18</size>
+            <text>Rubrik</text>
+            <underline>false</underline>
+          </controlProperties>
+        </control>
+        <control controlID="41" controlTypeID="com.balsamiq.mockups::List" x="49" y="44" w="-1" h="-1" measuredW="100" measuredH="126" zOrder="7" locked="false" isInGroup="33">
+          <controlProperties>
+            <bold>false</bold>
+            <borderStyle>none</borderStyle>
+            <color>16777215</color>
+            <customID>List</customID>
+            <hasHeader>false</hasHeader>
+            <italic>false</italic>
+            <rowHeight>25</rowHeight>
+            <selectedIndex>-1</selectedIndex>
+            <size>12</size>
+            <text>Item%201%0AItem%202%0AItem%203</text>
+            <underline>false</underline>
+            <value>0</value>
+            <verticalScrollbar>false</verticalScrollbar>
+          </controlProperties>
+        </control>
+        <control controlID="42" controlTypeID="com.balsamiq.mockups::List" x="169" y="44" w="-1" h="-1" measuredW="100" measuredH="126" zOrder="8" locked="false" isInGroup="33">
+          <controlProperties>
+            <bold>false</bold>
+            <borderStyle>none</borderStyle>
+            <color>16777215</color>
+            <customID>List</customID>
+            <hasHeader>false</hasHeader>
+            <italic>false</italic>
+            <rowHeight>25</rowHeight>
+            <selectedIndex>-1</selectedIndex>
+            <size>12</size>
+            <text>Item%201%0AItem%202%0AItem%203</text>
+            <underline>false</underline>
+            <value>0</value>
+            <verticalScrollbar>false</verticalScrollbar>
+          </controlProperties>
+        </control>
+        <control controlID="43" controlTypeID="com.balsamiq.mockups::List" x="289" y="44" w="-1" h="-1" measuredW="100" measuredH="126" zOrder="9" locked="false" isInGroup="33">
+          <controlProperties>
+            <bold>false</bold>
+            <borderStyle>none</borderStyle>
+            <color>16777215</color>
+            <customID>List</customID>
+            <hasHeader>false</hasHeader>
+            <italic>false</italic>
+            <rowHeight>25</rowHeight>
+            <selectedIndex>-1</selectedIndex>
+            <size>12</size>
+            <text>Item%201%0AItem%202%0AItem%203</text>
+            <underline>false</underline>
+            <value>0</value>
+            <verticalScrollbar>false</verticalScrollbar>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="54" controlTypeID="com.balsamiq.mockups::CallOut" x="1162" y="125" w="-1" h="-1" measuredW="36" measuredH="43" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>1</text>
+      </controlProperties>
+    </control>
+    <control controlID="78" controlTypeID="com.balsamiq.mockups::Component" x="16" y="95" w="1198" h="126" measuredW="1198" measuredH="126" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2242%2C78%2C174%2C126%22%20href%3D%22eventmarket.bmml%22%20alt%3D%22eventmarket%22%20id%3D%223%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22692%2C90%2C1164%2C115%22%20href%3D%22eventmarket_Autocomplete%2520search.bmml%22%20alt%3D%22eventmarket_Autocomplete%20search%22%20id%3D%224%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%221132%2C134%2C1164%2C166%22%20href%3D%22eventmarket_open_mainmenu.bmml%22%20alt%3D%22eventmarket_open_mainmenu%22%20id%3D%228%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%221084%2C134%2C1116%2C166%22%20href%3D%22eventmarket_open_mainmenu.bmml%22%20alt%3D%22eventmarket_open_mainmenu%22%20id%3D%2219%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%2242%2C78%2C174%2C126%22%20href%3D%22eventmarket.bmml%22%20alt%3D%22eventmarket%22%20id%3D%223%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22692%2C90%2C1164%2C115%22%20href%3D%22eventmarket_Autocomplete%2520search.bmml%22%20alt%3D%22eventmarket_Autocomplete%20search%22%20id%3D%224%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%221132%2C134%2C1164%2C166%22%20href%3D%22eventmarket_open_mainmenu.bmml%22%20alt%3D%22eventmarket_open_mainmenu%22%20id%3D%228%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%221084%2C134%2C1116%2C166%22%20href%3D%22eventmarket_open_mainmenu.bmml%22%20alt%3D%22eventmarket_open_mainmenu%22%20id%3D%2219%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%2242%2C78%2C174%2C126%22%20href%3D%22eventmarket.bmml%22%20alt%3D%22eventmarket%22%20id%3D%223%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22692%2C90%2C1164%2C115%22%20href%3D%22eventmarket_Autocomplete%2520search.bmml%22%20alt%3D%22eventmarket_Autocomplete%20search%22%20id%3D%224%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%221132%2C134%2C1164%2C166%22%20href%3D%22eventmarket_open_mainmenu.bmml%22%20alt%3D%22eventmarket_open_mainmenu%22%20id%3D%228%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%221084%2C134%2C1116%2C166%22%20href%3D%22eventmarket_open_mainmenu.bmml%22%20alt%3D%22eventmarket_open_mainmenu%22%20id%3D%2219%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%2242%2C78%2C174%2C126%22%20href%3D%22eventmarket.bmml%22%20alt%3D%22eventmarket%22%20id%3D%223%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22692%2C90%2C1164%2C115%22%20href%3D%22eventmarket_Autocomplete%2520search.bmml%22%20alt%3D%22eventmarket_Autocomplete%20search%22%20id%3D%224%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%221132%2C134%2C1164%2C166%22%20href%3D%22eventmarket_open_mainmenu.bmml%22%20alt%3D%22eventmarket_open_mainmenu%22%20id%3D%228%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%221084%2C134%2C1116%2C166%22%20href%3D%22eventmarket_open_mainmenu.bmml%22%20alt%3D%22eventmarket_open_mainmenu%22%20id%3D%2219%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%2242%2C78%2C174%2C126%22%20href%3D%22eventmarket.bmml%22%20alt%3D%22eventmarket%22%20id%3D%223%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22692%2C90%2C1164%2C115%22%20href%3D%22eventmarket_Autocomplete%2520search.bmml%22%20alt%3D%22eventmarket_Autocomplete%20search%22%20id%3D%224%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%221132%2C134%2C1164%2C166%22%20href%3D%22eventmarket_open_mainmenu.bmml%22%20alt%3D%22eventmarket_open_mainmenu%22%20id%3D%228%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%221084%2C134%2C1116%2C166%22%20href%3D%22eventmarket_open_mainmenu.bmml%22%20alt%3D%22eventmarket_open_mainmenu%22%20id%3D%2219%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%2242%2C78%2C174%2C126%22%20href%3D%22eventmarket.bmml%22%20alt%3D%22eventmarket%22%20id%3D%223%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22692%2C90%2C1164%2C115%22%20href%3D%22eventmarket_Autocomplete%2520search.bmml%22%20alt%3D%22eventmarket_Autocomplete%20search%22%20id%3D%224%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%221132%2C134%2C1164%2C166%22%20href%3D%22eventmarket_open_mainmenu.bmml%22%20alt%3D%22eventmarket_open_mainmenu%22%20id%3D%228%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%221084%2C134%2C1116%2C166%22%20href%3D%22eventmarket_open_mainmenu.bmml%22%20alt%3D%22eventmarket_open_mainmenu%22%20id%3D%2219%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%2242%2C78%2C174%2C126%22%20href%3D%22eventmarket.bmml%22%20alt%3D%22eventmarket%22%20id%3D%223%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22692%2C90%2C1164%2C115%22%20href%3D%22eventmarket_Autocomplete%2520search.bmml%22%20alt%3D%22eventmarket_Autocomplete%20search%22%20id%3D%224%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%221132%2C134%2C1164%2C166%22%20href%3D%22eventmarket_open_mainmenu.bmml%22%20alt%3D%22eventmarket_open_mainmenu%22%20id%3D%228%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%221084%2C134%2C1116%2C166%22%20href%3D%22eventmarket_open_mainmenu.bmml%22%20alt%3D%22eventmarket_open_mainmenu%22%20id%3D%2219%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%2242%2C78%2C174%2C126%22%20href%3D%22eventmarket.bmml%22%20alt%3D%22eventmarket%22%20id%3D%223%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22692%2C90%2C1164%2C115%22%20href%3D%22eventmarket_Autocomplete%2520search.bmml%22%20alt%3D%22eventmarket_Autocomplete%20search%22%20id%3D%224%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%221132%2C134%2C1164%2C166%22%20href%3D%22eventmarket_open_mainmenu.bmml%22%20alt%3D%22eventmarket_open_mainmenu%22%20id%3D%228%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%221084%2C134%2C1116%2C166%22%20href%3D%22eventmarket_open_mainmenu.bmml%22%20alt%3D%22eventmarket_open_mainmenu%22%20id%3D%2219%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%2242%2C78%2C174%2C126%22%20href%3D%22eventmarket.bmml%22%20alt%3D%22eventmarket%22%20id%3D%223%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22692%2C90%2C1164%2C115%22%20href%3D%22eventmarket_Autocomplete%2520search.bmml%22%20alt%3D%22eventmarket_Autocomplete%20search%22%20id%3D%224%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%221132%2C134%2C1164%2C166%22%20href%3D%22eventmarket_open_mainmenu.bmml%22%20alt%3D%22eventmarket_open_mainmenu%22%20id%3D%228%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%221084%2C134%2C1116%2C166%22%20href%3D%22eventmarket_open_mainmenu.bmml%22%20alt%3D%22eventmarket_open_mainmenu%22%20id%3D%2219%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%2242%2C78%2C174%2C126%22%20href%3D%22eventmarket.bmml%22%20alt%3D%22eventmarket%22%20id%3D%223%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22692%2C90%2C1164%2C115%22%20href%3D%22eventmarket_Autocomplete%2520search.bmml%22%20alt%3D%22eventmarket_Autocomplete%20search%22%20id%3D%224%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%221132%2C134%2C1164%2C166%22%20href%3D%22eventmarket_open_mainmenu.bmml%22%20alt%3D%22eventmarket_open_mainmenu%22%20id%3D%228%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%221084%2C134%2C1116%2C166%22%20href%3D%22eventmarket_open_mainmenu.bmml%22%20alt%3D%22eventmarket_open_mainmenu%22%20id%3D%2219%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%2242%2C78%2C174%2C126%22%20href%3D%22eventmarket.bmml%22%20alt%3D%22eventmarket%22%20id%3D%223%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22692%2C90%2C1164%2C115%22%20href%3D%22eventmarket_Autocomplete%2520search.bmml%22%20alt%3D%22eventmarket_Autocomplete%20search%22%20id%3D%224%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%221132%2C134%2C1164%2C166%22%20href%3D%22eventmarket_open_mainmenu.bmml%22%20alt%3D%22eventmarket_open_mainmenu%22%20id%3D%228%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%221084%2C134%2C1116%2C166%22%20href%3D%22eventmarket_open_mainmenu.bmml%22%20alt%3D%22eventmarket_open_mainmenu%22%20id%3D%2219%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%2242%2C78%2C174%2C126%22%20href%3D%22eventmarket.bmml%22%20alt%3D%22eventmarket%22%20id%3D%223%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22692%2C90%2C1164%2C115%22%20href%3D%22eventmarket_Autocomplete%2520search.bmml%22%20alt%3D%22eventmarket_Autocomplete%20search%22%20id%3D%224%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%221132%2C134%2C1164%2C166%22%20href%3D%22eventmarket_open_mainmenu.bmml%22%20alt%3D%22eventmarket_open_mainmenu%22%20id%3D%228%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%221086%2C132%2C1118%2C164%22%20href%3D%22eventmarket_open_mainmenu.bmml%22%20alt%3D%22eventmarket_open_mainmenu%22%20id%3D%2219%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%2242%2C78%2C174%2C126%22%20href%3D%22eventmarket.bmml%22%20alt%3D%22eventmarket%22%20id%3D%223%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22692%2C90%2C1164%2C115%22%20href%3D%22eventmarket_Autocomplete%2520search.bmml%22%20alt%3D%22eventmarket_Autocomplete%20search%22%20id%3D%224%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%221132%2C134%2C1164%2C166%22%20href%3D%22eventmarket_open_mainmenu.bmml%22%20alt%3D%22eventmarket_open_mainmenu%22%20id%3D%228%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%221062%2C134%2C1094%2C166%22%20href%3D%22eventmarket_open_mainmenu.bmml%22%20alt%3D%22eventmarket_open_mainmenu%22%20id%3D%2219%22/%3E</map>
+        <override controlID="16" x="0" y="57" w="1198" h="42"/>
+        <override controlID="17" x="1084" y="62" w="-1" h="-1"/>
+        <override controlID="18" x="884" y="69" w="-1" h="-1">
+          <text>.</text>
+        </override>
+        <override controlID="3" x="41" y="6" w="-1" h="-1"/>
+        <override controlID="20" x="0" y="69" w="1198" h="57">
+          <color>2848996</color>
+          <hrefs/>
+          <selectedIndex>2</selectedIndex>
+          <text>Event%2C%20Konferens%2C%20Bljett</text>
+        </override>
+        <override controlID="8" x="1131" y="62" w="-1" h="-1"/>
+        <override controlID="11" x="0" y="0" w="1198" h="99"/>
+        <override controlID="4" x="691" y="18" w="472" h="-1">
+          <text>S%F6k%20biljetter%2C%20evenemang%2C%20arenor%2C%20st%E4der%20mm.</text>
+        </override>
+        <override controlID="19" x="1083" y="62" w="-1" h="-1"/>
+        <override controlID="-1"/>
+        <src>./assets/symbols.bmml#Main-menu</src>
+      </controlProperties>
+    </control>
+    <control controlID="80" controlTypeID="com.balsamiq.mockups::LinkBar" x="41" y="195" w="-1" h="-1" measuredW="237" measuredH="19" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderColor>3355443</borderColor>
+        <color>16777215</color>
+        <text>Musik%2C%20Sport%2C%20Teater%2C%20Undeh%E5llning</text>
+      </controlProperties>
+    </control>
+    <control controlID="81" controlTypeID="com.balsamiq.mockups::Image" x="15" y="219" w="1199" h="360" measuredW="77" measuredH="79" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <customID>Image</customID>
+      </controlProperties>
+    </control>
+    <control controlID="82" controlTypeID="com.balsamiq.mockups::Icon" x="1125" y="533" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <color>0</color>
+        <customID>Icon</customID>
+        <icon>DotIcon%7Csmall</icon>
+        <rotation>0</rotation>
+      </controlProperties>
+    </control>
+    <control controlID="83" controlTypeID="com.balsamiq.mockups::Icon" x="1173" y="533" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <color>0</color>
+        <customID>Icon</customID>
+        <icon>DotHollowIcon%7Csmall</icon>
+        <rotation>0</rotation>
+      </controlProperties>
+    </control>
+    <control controlID="84" controlTypeID="com.balsamiq.mockups::Icon" x="1149" y="533" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <color>0</color>
+        <customID>Icon</customID>
+        <icon>DotHollowIcon%7Csmall</icon>
+        <rotation>0</rotation>
+      </controlProperties>
+    </control>
+    <control controlID="86" controlTypeID="com.balsamiq.mockups::StickyNote" x="1216" y="175" w="-1" h="-1" measuredW="109" measuredH="123" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Kan%20%E4ven%20g%F6ras%20som%20Wordpress.com%20meny</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
