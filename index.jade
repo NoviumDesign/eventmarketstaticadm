@@ -1,0 +1,90 @@
+doctype
+html.no-js(lang='en')
+head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title ADM
+    link(rel='stylesheet', href='stylesheets/app.css')
+    script(src='bower_components/modernizr/modernizr.js')
+  body
+    .sticky
+      nav.top-bar(data-topbar='data-topbar')
+          ul.title-area
+              li.name
+                h1
+                  a(href='#') ADM
+              //
+                 Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone 
+              li.toggle-topbar.menu-icon
+                a(href='#')
+                  span Menu
+            section.top-bar-section
+              //
+                 Right Nav Section 
+              ul.right
+                li
+                  a(href='#') Systeminställningar
+                li.has-dropdown
+                  a(href='#') J. Sterner
+                  ul.dropdown
+                    li
+                      a(href='#') Kontoinställningar
+                    li
+                      a(href='#') Logga ut
+
+    .row
+      .large-3.medium-4.columns
+          .hide-for-small
+              .sidebar
+                nav
+                  dl.accordion(data-accordion='data-accordion')
+                    dd
+                        a(href='#panel1') Kunddatabas & CRM
+                        #panel1.content.active
+                          ul.side-nav
+                              li
+                                  a(href='#') Kundkort
+                                li
+                                  a(href='#') Kommande kontakter
+                                li
+                                  a(href='#') Link 3
+                                li
+                                  a(href='#') Link 4
+                      dd
+                        a(href='#panel2') Accordion 2
+                        #panel2.content
+                          | Panel 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      dd
+                        a(href='#panel3') Accordion 3
+                        #panel3.content
+                          | Panel 3. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+      .large-9.columns.medium-8.columns
+        h3 Kalles catering
+        p
+          | To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.
+        p Once you've exhausted the fun in this document, you should check out:
+        .row
+          .large-4.medium-4.columns
+            p
+              a(href='http://foundation.zurb.com/docs') Foundation Documentation
+              br
+              | Everything you need to know about using the framework.
+          .large-4.medium-4.columns
+            p
+              a(href='http://github.com/zurb/foundation') Foundation on Github
+              br
+              | Latest code, issue reports, feature requests and more.
+          .large-4.medium-4.columns
+            p
+              a(href='http://twitter.com/foundationzurb') @foundationzurb
+              br
+              | Ping us on Twitter if you have questions. If you build something with this we'd love to see it (and send you a totally boss sticker).
+    .footer
+      ul.title-area
+        li.name
+          | Eventmarket ADM v. 1.0.17
+
+    script(src='bower_components/jquery/dist/jquery.min.js')
+    script(src='bower_components/foundation/js/foundation.min.js')
+    script(src='js/app.js')
