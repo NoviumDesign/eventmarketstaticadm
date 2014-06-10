@@ -1,0 +1,60 @@
+include includes/head
+body
+  include includes/nav
+
+  .row
+    include includes/sidenav
+
+    .large-9.columns.medium-8.columns
+      h3 Kundkort
+      .row
+        .small-12.columns
+          a.button(href='#') Skapa ny
+          table#customer-table.dynamic-table
+            thead
+              tr
+                th Profilsidor
+                th Företag
+                th Kontaktperson
+                th Kundsansvarig
+                th Grupptillhörighet
+            tbody
+              tr
+                td 
+                  a(href="index.html") 1 publik / 3 utkast
+                td
+                  | Giacomo Guilizzoni
+                  br
+                  | Founder & CEO
+                td Pelle Persson
+                td JOS
+                td Prospect
+              tr
+                td 2 publik / 3 utkast
+                td
+                  | Lorem Ipsum
+                  br
+                  | Founder & CEO
+                td Kalle Kanin
+                td JUICE
+                td Aspect
+              tr
+                td 1 publik / 3 utkast
+                td
+                  | Giacomo Guilizzoni
+                  br
+                  | Founder & CEO
+                td Pelle Persson
+                td JOS
+                td Prospect
+              tr
+                td 0 publik / 2 utkast
+                td
+                  | Lorem Ipsum
+                  br
+                  | Founder & CEO
+                td Kalle Kanin
+                td JUICE
+                td Aspect
+
+  include includes/footer

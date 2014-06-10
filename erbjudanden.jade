@@ -1,0 +1,61 @@
+include includes/head
+body
+  include includes/nav
+
+  .row
+    include includes/sidenav
+
+    .large-9.columns.medium-8.columns
+      h3 Erbjudanden
+      .row
+        .small-12.columns
+          a.button(href='#') Skapa ny
+          table#customer-table.dynamic-table
+            thead
+              tr
+                th Status
+                th Rubrik
+                th Knutet till
+                th T.o.m.
+                th Typ
+            tbody
+              tr
+                td 
+                td Boka Anders Lundin
+                td
+                  | Lindau produktion
+                  br
+                  | Anders Lundin
+                td 2014-06-06
+                td Normalt
+              tr
+                td
+                  .green-ball
+                td Boka Andreas Inlund
+                td
+                  | Inlund produktion
+                  br
+                  | Andreas Inlund
+                td 2014-11-22
+                td Jul
+              tr
+                td
+                td Boka Anders Lundin
+                td
+                  | Lindau produktion
+                  br
+                  | Anders Lundin
+                td 2014-06-06
+                td Normalt
+              tr
+                td
+                  .green-ball
+                td Boka Andreas Inlund
+                td
+                  | Inlund produktion
+                  br
+                  | Andreas Inlund
+                td 2014-11-22
+                td Jul
+
+  include includes/footer

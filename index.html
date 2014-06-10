@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ADM</title>
   <link rel="stylesheet" href="stylesheets/app.css">
+  <link rel="stylesheet" href="js/jstree/themes/default/style.min.css">
   <script src="bower_components/modernizr/modernizr.js"></script>
 </head>
 <body>
@@ -62,17 +63,175 @@
     </div>
     <div class="large-9 columns medium-8 columns">
       <h3>Kalles catering</h3>
-      <p>To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
-      <p>Once you've exhausted the fun in this document, you should check out:</p>
+      <div class="row administration-content">
+        <div class="large-2 columns medium-6 columns">
+          <label>Kundansvarig
+            <select>
+              <option value="jennie-sterner">Jennie Sterner</option>
+              <option value="jennie-sterner">Johnny Sterner</option>
+              <option value="jennie-sterner">Kalle Kanin</option>
+            </select>
+          </label>
+        </div>
+        <div class="large-2 columns medium-6 columns end">
+          <label>Tilldelad grupp
+            <select>
+              <option value="jennie-sterner">Medlem</option>
+              <option value="jennie-sterner">Medlem</option>
+              <option value="jennie-sterner">Medlem</option>
+            </select>
+          </label>
+        </div>
+      </div>
+      <div class="row administration-content">
+        <div class="large-12 medium-12 columns">
+          <dl data-accordion="data-accordion" class="accordion">
+            <dd><a href="#content1">Kontakt och Personal</a>
+              <div id="content1" class="content">
+                <div class="row">
+                  <div class="large-4 medium-6 columns">
+                    <h5>Kontakta vid förnyelse</h5>
+                    <div class="panel"><img src="http://placehold.it/64x64">
+                      <h6>Kalle Kanin</h6><a href="#">kalle.kanin@kanincatering.se</a>
+                      <p>0706 27 29 12</p>
+                    </div>
+                  </div>
+                  <div class="large-4 medium-6 columns">
+                    <h5>Medarbetare</h5>
+                    <div class="panel"><img src="http://placehold.it/64x64">
+                      <h6>Kalle Kanin</h6><a href="#">kalle.kanin@kanincatering.se</a>
+                      <p>0706 27 29 12</p>
+                    </div>
+                  </div>
+                  <div class="large-4 medium-6 columns">
+                    <h5>Medarbetare</h5>
+                    <div class="panel"><img src="http://placehold.it/64x64">
+                      <h6>Kalle Kanin</h6><a href="#">kalle.kanin@kanincatering.se</a>
+                      <p>0706 27 29 12</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </dd>
+            <dd><a href="#content2">Addresser</a>
+              <div id="content2" class="content">Panel 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor indidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+            </dd>
+          </dl>
+        </div>
+        <div class="large-12 medium-12 columns">
+          <ul class="small-block-grid-1 large-block-grid-2">
+            <li>
+              <dl data-accordion="myAccordionGroup" class="accordion">
+                <dd><a href="#panel1b">Profilsidor</a>
+                  <div id="panel1b" class="content">Panel 1. Lorem ipsum dolor</div>
+                </dd>
+                <dd><a href="#panel2b">Erbjudanden</a>
+                  <div id="panel2b" class="content">
+                    <table id="my-table" class="dynamic-table">
+                      <thead>
+                        <tr>
+                          <th>Rubrik</th>
+                          <th>Aktiv fr.o.m.</th>
+                          <th>Slutdatum</th>
+                          <th>Publikt</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Julbord från 99:-</td>
+                          <td>2013-02-12</td>
+                          <td>2014-12-31</td>
+                          <td>
+                            <div class="green-ball"></div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Bananer 98:-/styck</td>
+                          <td>2010-12-23</td>
+                          <td>2015-12-12</td>
+                          <td>
+                            <div class="green-ball"></div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Gaffel 1:-/styck</td>
+                          <td>2010-11-23</td>
+                          <td>2010-12-24</td>
+                          <td></td>
+                        </tr>
+                      </tbody>
+                    </table><a class="button expand">Nytt erbjudande</a>
+                  </div>
+                </dd>
+              </dl>
+            </li>
+            <li>
+              <dl data-accordion="myAccordionGroup" class="accordion">
+                <dd><a href="#panel4b">Statistik</a>
+                  <div id="panel4b" class="content">Panel 4. Lorem ipsum dolor</div>
+                </dd>
+                <dd><a href="#panel5b">Intresselista</a>
+                  <div id="panel5b" class="content">
+                    <div id="jstree">
+                      <ul>
+                        <li>Root node 1
+                          <ul>
+                            <li id="child_node_1">Child node 1</li>
+                            <li>Child node 2</li>
+                          </ul>
+                        </li>
+                        <li>Root node 2</li>
+                      </ul>
+                    </div>
+                  </div>
+                </dd>
+              </dl>
+            </li>
+          </ul>
+        </div>
+      </div>
       <div class="row">
-        <div class="large-4 medium-4 columns">
-          <p><a href="http://foundation.zurb.com/docs">Foundation Documentation</a><br>Everything you need to know about using the framework.</p>
+        <div class="large-10 medium-8 columns">
+          <h3>Historik</h3>
         </div>
-        <div class="large-4 medium-4 columns">
-          <p><a href="http://github.com/zurb/foundation">Foundation on Github</a><br>Latest code, issue reports, feature requests and more.</p>
+        <div class="large-2 medium-4 columns">
+          <select>
+            <option value="all-history">All historik</option>
+            <option value="billing">Fakturering</option>
+            <option value="other">Övrigt</option>
+          </select>
         </div>
-        <div class="large-4 medium-4 columns">
-          <p><a href="http://twitter.com/foundationzurb">@foundationzurb</a><br>Ping us on Twitter if you have questions. If you build something with this we'd love to see it (and send you a totally boss sticker).</p>
+      </div>
+      <div class="row administration-content">
+        <div class="large-12 medium-12 columns">
+          <dl data-accordion="data-accordion" class="accordion">
+            <dd><a href="#content1c">Samtal: förnyelse</a>
+              <div id="content1c" class="content">Panel 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit</div>
+            </dd>
+            <dd><a href="#content2c">Faktura 1239 betald</a>
+              <div id="content2c" class="content">Panel 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit</div>
+            </dd>
+            <dd><a href="#content3c">Faktura 1239 skapad</a>
+              <div id="content3c" class="content">Panel 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit</div>
+            </dd>
+          </dl>
+        </div>
+      </div>
+      <div class="row">
+        <div class="large-12 medium-12 columns">
+          <h3>Kommande kontakter</h3>
+        </div>
+      </div>
+      <div class="row administration-content">
+        <div class="large-12 medium-12 columns">
+          <dl data-accordion="data-accordion" class="accordion">
+            <dd><a href="#content1d">Samtal: förnya profilsida</a>
+              <div id="content1d" class="content">Panel 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit</div>
+            </dd>
+            <dd><a href="#content2d">Byt logotyp</a>
+              <div id="content2d" class="content">Panel 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit</div>
+            </dd>
+          </dl><a href="#" class="button">Skapa ny</a>
         </div>
       </div>
     </div>
@@ -84,5 +243,7 @@
   </div>
   <script src="bower_components/jquery/dist/jquery.min.js"></script>
   <script src="bower_components/foundation/js/foundation.min.js"></script>
+  <script src="js/jstree/jstree.min.js"></script>
+  <script src="js/dynatable/jquery.dynatable.js"></script>
   <script src="js/app.js"></script>
 </body>

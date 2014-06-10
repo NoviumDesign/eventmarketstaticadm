@@ -1,0 +1,47 @@
+include includes/head
+body
+  include includes/nav
+
+  .row
+    include includes/sidenav
+
+    .large-9.columns.medium-8.columns
+      h3 Profilsidor
+      .row
+        .small-12.columns
+          a.button(href='#') Skapa ny
+          table#customer-table.dynamic-table
+            thead
+              tr
+                th Sidans namn
+                th Företag
+                th Kontaktperson
+                th Sökord / Taggar
+                th Synlig / Släckt
+            tbody
+              tr
+                td Lindaus bokningssida
+                td Lindau produktion
+                td Anders Lundin
+                td anders, lundin, bokning
+                td Synlig
+              tr
+                td Inlands bussbiljetter
+                td Inlands busstrafik AB
+                td Kalle Kanin
+                td buss, brum, biljett
+                td Släckt
+              tr
+                td Lindaus bokningssida
+                td Lindau produktion
+                td Anders Lundin
+                td anders, lundin, bokning
+                td Synlig
+              tr
+                td Inlands bussbiljetter
+                td Inlands busstrafik AB
+                td Kalle Kanin
+                td buss, brum, biljett
+                td Släckt
+
+  include includes/footer

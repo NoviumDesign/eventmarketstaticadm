@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js"></html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ADM</title>
+  <link rel="stylesheet" href="stylesheets/app.css">
+  <link rel="stylesheet" href="js/jstree/themes/default/style.min.css">
+  <script src="bower_components/modernizr/modernizr.js"></script>
+</head>
+<body>
+  <div class="sticky">
+    <nav data-topbar="data-topbar" class="top-bar">
+      <ul class="title-area">
+        <li class="name">
+          <h1><a href="#">ADM</a></h1>
+        </li>
+        <!--Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone 
+        -->
+        <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+      </ul>
+      <section class="top-bar-section">
+        <!--Right Nav Section 
+        -->
+        <ul class="right">
+          <li><a href="#">Systeminställningar</a></li>
+          <li class="has-dropdown"><a href="#">J. Sterner</a>
+            <ul class="dropdown">
+              <li><a href="#">Kontoinställningar</a></li>
+              <li><a href="#">Logga ut</a></li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+    </nav>
+  </div>
+  <div class="row">
+    <div class="large-3 medium-4 columns">
+      <div class="hide-for-small">
+        <div class="sidebar">
+          <nav>
+            <dl data-accordion="data-accordion" class="accordion">
+              <dd><a href="#panel1">Kunddatabas & CRM</a>
+                <div id="panel1" class="content active">
+                  <ul class="side-nav">
+                    <li><a href="#">Kundkort</a></li>
+                    <li><a href="#">Kommande kontakter</a></li>
+                    <li><a href="#">Link 3</a></li>
+                    <li><a href="#">Link 4</a></li>
+                  </ul>
+                </div>
+              </dd>
+              <dd><a href="#panel2">Accordion 2</a>
+                <div id="panel2" class="content">Panel 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+              </dd>
+              <dd><a href="#panel3">Accordion 3</a>
+                <div id="panel3" class="content">Panel 3. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+              </dd>
+            </dl>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="large-9 columns medium-8 columns">
+      <h3>Skapa Profilsida</h3>
+      <div class="row administration-content">
+        <div class="large-12 medium-12 columns">
+          <dl data-accordion="data-accordion" class="accordion">
+            <dd><a href="#content1">Företagsinfo</a>
+              <div id="content1" class="content active">
+                <div class="row">
+                  <div class="small-8 columns">
+                    <label>Sidans namn
+                      <input type="text">
+                    </label>
+                    <hr>
+                    <div class="row">
+                      <div class="small-6 columns">
+                        <label>Företag
+                          <input type="text">
+                        </label>
+                      </div>
+                      <div class="small-6 columns">
+                        <label>Kontaktperson
+                          <input type="text">
+                        </label>
+                      </div>
+                      <div class="small-6 columns">
+                        <label>Postadress
+                          <input type="text">
+                        </label>
+                      </div>
+                      <div class="small-6 columns">
+                        <label>Postnummer
+                          <input type="text">
+                        </label>
+                      </div>
+                      <div class="small-6 columns">
+                        <label>Ort
+                          <input type="text">
+                        </label>
+                      </div>
+                      <div class="small-6 columns">
+                        <label>Land
+                          <input type="text">
+                        </label>
+                      </div>
+                      <div class="small-6 columns">
+                        <label>Telefon 1
+                          <input type="text">
+                        </label>
+                      </div>
+                      <div class="small-6 columns">
+                        <label>Telefon 2
+                          <input type="text">
+                        </label>
+                      </div>
+                      <div class="small-6 columns">
+                        <label>E-postadress
+                          <input type="text">
+                        </label>
+                      </div>
+                      <div class="small-6 columns">
+                        <label>URL-adress
+                          <input type="text">
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="small-4 columns"><img src="http://placehold.it/350x350"><a href="#" class="button expand">Ladda upp logotyp</a></div>
+                </div>
+              </div>
+            </dd>
+            <dd><a href="#content2">Eventinfo</a>
+              <div id="content2" class="content active">
+                <div class="row">
+                  <div class="small-12 columns">
+                    <label>Fri text (max 35 tecken)
+                      <textarea maxlength="35"></textarea>
+                    </label>
+                    <hr>
+                  </div>
+                  <div class="small-6 columns">
+                    <label>Största sällskap
+                      <input type="text">
+                    </label>
+                  </div>
+                  <div class="small-6 columns">
+                    <label>Antal mötesrum
+                      <input type="text">
+                    </label>
+                  </div>
+                  <div class="small-6 columns">
+                    <label>Största möteslokal
+                      <input type="text">
+                    </label>
+                  </div>
+                  <div class="small-6 columns">
+                    <label>Sittande matgäster
+                      <input type="text">
+                    </label>
+                  </div>
+                  <div class="small-6 columns">
+                    <label>Mingel/stående
+                      <input type="text">
+                    </label>
+                  </div>
+                  <div class="small-6 columns">
+                    <label>Logi, antal bäddar
+                      <input type="text">
+                    </label>
+                  </div>
+                  <div class="small-12 columns">
+                    <label>Artistpris<br>
+                      <input id="input1" type="radio" name="price" value="0-30">
+                      <label for="input1">0-30 tkr</label>
+                      <input id="input2" type="radio" name="price" value="30-60">
+                      <label for="input2">30-60 tkr</label>
+                      <input id="input3" type="radio" name="price" value="60-90">
+                      <label for="input3">60-90 tkr</label>
+                      <input id="input4" type="radio" name="price" value="90-120">
+                      <label for="input4">90-120 tkr</label>
+                    </label>
+                    <hr>
+                  </div>
+                  <div class="small-3 columns">
+                    <label>Huvudkategori
+                      <select>
+                        <option value="underhallning">Underhållning</option>
+                        <option value="catering">Catering</option>
+                        <option value="personal">Personal</option>
+                        <option value="konferens">Konferens</option>
+                      </select>
+                    </label>
+                  </div>
+                  <div class="small-3 columns">
+                    <label>Underkategori
+                      <select>
+                        <option value="showgrupper">Showgrupper</option>
+                        <option value="barnFamilj">Barn & Familj</option>
+                        <option value="magiTrolleri">Magi & Trolleri</option>
+                        <option value="humorStandup">Humor & Standup</option>
+                      </select>
+                    </label>
+                  </div>
+                  <div class="small-3 columns">
+                    <label>Huvudkategori
+                      <select>
+                        <option value="arrangorer">Arrangörer</option>
+                        <option value="aktiviteter">Aktiviteter</option>
+                        <option value="teknik">Teknik</option>
+                        <option value="transporter">Transporter</option>
+                      </select>
+                    </label>
+                  </div>
+                  <div class="small-3 columns">
+                    <label>Underkategori
+                      <select>
+                        <option value="djur">Djur</option>
+                        <option value="kreativtSkapande">Kreativt Skapande</option>
+                        <option value="motor">Motor</option>
+                        <option value="musikaliskaAktiviteter">Musikaliska aktiviteter</option>
+                      </select>
+                    </label>
+                  </div>
+                  <div class="small-12 columns">
+                    <hr><img src="http://placehold.it/950x250"><a href="#" class="button expand">Ladda upp bild</a>
+                  </div>
+                  <div class="small-6 columns">
+                    <h6>Presentations-flik</h6>
+                    <label>Rubrik
+                      <input type="text">
+                    </label>
+                  </div>
+                  <div class="small-6 columns">
+                    <h6>Extra-flik</h6>
+                    <label>Rubrik (max 15 tecken)
+                      <input type="text" maxlength="15">
+                    </label>
+                  </div>
+                  <div class="small-6 columns">
+                    <label>Text
+                      <textarea></textarea>
+                    </label>
+                  </div>
+                  <div class="small-6 columns">
+                    <label>Text
+                      <textarea></textarea>
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </dd>
+            <dd><a href="#content3">Erbjudande-flik</a>
+              <div id="content3" class="content active">
+                <div class="row">
+                  <div class="small-12 columns">
+                    <label>Adress för karta
+                      <input type="text">
+                    </label>
+                    <hr>
+                  </div>
+                  <div class="small-12 columns">
+                    <h6>Media</h6>
+                    <div class="row">
+                      <div class="small-4 columns"><a href="#" class="button expand">Ladda upp filmklipp</a></div>
+                      <div class="small-4 columns"><a href="#" class="button expand">Ladda upp ljudfiler</a></div>
+                      <div class="small-4 columns"><a href="#" class="button expand">Ladda upp pdf-filer</a></div>
+                    </div>
+                    <hr>
+                  </div>
+                  <div class="small-12 columns">
+                    <h6>SEO</h6>
+                    <label>Titel (max 70 tecken)
+                      <input type="text" maxlength="70">
+                    </label>
+                    <label>Beskrivning (max 150 tecken)
+                      <textarea maxlength="150"></textarea>
+                    </label>
+                    <label>Sökord/taggar
+                      <input type="text">
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </dd>
+            <dd><a href="#content4">Sidinställningar</a>
+              <div id="content4" class="content active">
+                <div class="row">
+                  <div class="small-12 columns">
+                    <label>URL-adress
+                      <input type="text">
+                    </label>
+                    <hr>
+                  </div>
+                  <div class="small-12 columns">
+                    <label>Sidtyp
+                      <select>
+                        <option value="small">Small</option>
+                        <option value="medium">Medium</option>
+                        <option value="large">Large</option>
+                      </select>
+                    </label>
+                    <hr>
+                  </div>
+                  <div class="small-12 columns">
+                    <h6>Periodinformation</h6>
+                    <div class="row">
+                      <div class="small-3 columns">
+                        <label>Startperiod
+                          <select>
+                            <option value="date">Datum</option>
+                          </select>
+                        </label>
+                      </div>
+                      <div class="small-3 columns end">
+                        <label>Slutperiod
+                          <select>
+                            <option value="date">Datum</option>
+                          </select>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="small-12 columns">
+                    <h6>Toppplacering</h6>
+                    <div class="row">
+                      <div class="small-3 columns">
+                        <label>Startperiod
+                          <select>
+                            <option value="date">Datum</option>
+                          </select>
+                        </label>
+                      </div>
+                      <div class="small-3 columns end">
+                        <label>Slutperiod
+                          <select>
+                            <option value="date">Datum</option>
+                          </select>
+                        </label>
+                      </div>
+                    </div>
+                    <hr>
+                  </div>
+                  <div class="small-12 columns">
+                    <label>Synlighetsinställningar<br>
+                      <input id="show" type="radio" name="value" value="show">
+                      <label for="show">Synlig</label>
+                      <input id="hidden" type="radio" name="value" value="hidden">
+                      <label for="hidden">Släckt</label>
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </dd>
+          </dl><a href="#" class="button">Spara</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <ul class="title-area">
+      <li class="name">Eventmarket ADM v. 1.0.17</li>
+    </ul>
+  </div>
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/foundation/js/foundation.min.js"></script>
+  <script src="js/jstree/jstree.min.js"></script>
+  <script src="js/dynatable/jquery.dynatable.js"></script>
+  <script src="js/app.js"></script>
+</body>

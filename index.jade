@@ -1,90 +1,148 @@
-doctype
-html.no-js(lang='en')
-head
-    meta(charset='utf-8')
-    meta(name='viewport', content='width=device-width, initial-scale=1.0')
-    title ADM
-    link(rel='stylesheet', href='stylesheets/app.css')
-    script(src='bower_components/modernizr/modernizr.js')
-  body
-    .sticky
-      nav.top-bar(data-topbar='data-topbar')
-          ul.title-area
-              li.name
-                h1
-                  a(href='#') ADM
-              //
-                 Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone 
-              li.toggle-topbar.menu-icon
-                a(href='#')
-                  span Menu
-            section.top-bar-section
-              //
-                 Right Nav Section 
-              ul.right
-                li
-                  a(href='#') Systeminställningar
-                li.has-dropdown
-                  a(href='#') J. Sterner
-                  ul.dropdown
-                    li
-                      a(href='#') Kontoinställningar
-                    li
-                      a(href='#') Logga ut
+include includes/head
+body
+  include includes/nav
 
-    .row
-      .large-3.medium-4.columns
-          .hide-for-small
-              .sidebar
-                nav
-                  dl.accordion(data-accordion='data-accordion')
-                    dd
-                        a(href='#panel1') Kunddatabas & CRM
-                        #panel1.content.active
-                          ul.side-nav
-                              li
-                                  a(href='#') Kundkort
-                                li
-                                  a(href='#') Kommande kontakter
-                                li
-                                  a(href='#') Link 3
-                                li
-                                  a(href='#') Link 4
-                      dd
-                        a(href='#panel2') Accordion 2
-                        #panel2.content
-                          | Panel 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      dd
-                        a(href='#panel3') Accordion 3
-                        #panel3.content
-                          | Panel 3. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  .row
+    include includes/sidenav
 
-      .large-9.columns.medium-8.columns
-        h3 Kalles catering
-        p
-          | To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.
-        p Once you've exhausted the fun in this document, you should check out:
-        .row
-          .large-4.medium-4.columns
-            p
-              a(href='http://foundation.zurb.com/docs') Foundation Documentation
-              br
-              | Everything you need to know about using the framework.
-          .large-4.medium-4.columns
-            p
-              a(href='http://github.com/zurb/foundation') Foundation on Github
-              br
-              | Latest code, issue reports, feature requests and more.
-          .large-4.medium-4.columns
-            p
-              a(href='http://twitter.com/foundationzurb') @foundationzurb
-              br
-              | Ping us on Twitter if you have questions. If you build something with this we'd love to see it (and send you a totally boss sticker).
-    .footer
-      ul.title-area
-        li.name
-          | Eventmarket ADM v. 1.0.17
+    .large-9.columns.medium-8.columns
+      h3 Kalles catering
+      .row.administration-content
+        .large-2.columns.medium-6.columns
+          label Kundansvarig
+            select
+              option(value='jennie-sterner') Jennie Sterner
+              option(value='jennie-sterner') Johnny Sterner
+              option(value='jennie-sterner') Kalle Kanin
+        .large-2.columns.medium-6.columns.end
+          label Tilldelad grupp
+            select
+              option(value='jennie-sterner') Medlem
+              option(value='jennie-sterner') Medlem
+              option(value='jennie-sterner') Medlem
+      .row.administration-content
+        .large-12.medium-12.columns
+          dl.accordion(data-accordion='data-accordion')
+            dd
+              a(href='#content1') Kontakt och Personal
+              #content1.content
+                .row
+                  .large-4.medium-6.columns
+                    h5 Kontakta vid förnyelse
+                    .panel
+                      img(src='http://placehold.it/64x64')
+                      h6 Kalle Kanin
+                      a(href="#") kalle.kanin@kanincatering.se
+                      p 0706 27 29 12
+                  .large-4.medium-6.columns
+                    h5 Medarbetare
+                    .panel
+                      img(src='http://placehold.it/64x64')
+                      h6 Kalle Kanin
+                      a(href="#") kalle.kanin@kanincatering.se
+                      p 0706 27 29 12
+                  .large-4.medium-6.columns
+                    h5 Medarbetare
+                    .panel
+                      img(src='http://placehold.it/64x64')
+                      h6 Kalle Kanin
+                      a(href="#") kalle.kanin@kanincatering.se
+                      p 0706 27 29 12
+            dd
+              a(href='#content2') Addresser
+              #content2.content
+                | Panel 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor indidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        .large-12.medium-12.columns
+          ul.small-block-grid-1.large-block-grid-2
+            li
+              dl.accordion(data-accordion='myAccordionGroup')
+                dd
+                  a(href='#panel1b') Profilsidor
+                  #panel1b.content
+                    | Panel 1. Lorem ipsum dolor
+                dd
+                  a(href='#panel2b') Erbjudanden
+                  #panel2b.content
+                    table#my-table.dynamic-table
+                      thead
+                          tr
+                            th Rubrik
+                            th Aktiv fr.o.m.
+                            th Slutdatum
+                            th Publikt
+                        tbody
+                          tr
+                            td Julbord från 99:-
+                            td 2013-02-12
+                            td 2014-12-31
+                            td
+                              .green-ball
+                          tr
+                            td Bananer 98:-/styck
+                            td 2010-12-23
+                            td 2015-12-12
+                            td
+                              .green-ball
+                          tr
+                            td Gaffel 1:-/styck
+                            td 2010-11-23
+                            td 2010-12-24
+                            td 
+                    a.button.expand Nytt erbjudande
+            li
+              dl.accordion(data-accordion='myAccordionGroup')
+                dd
+                  a(href='#panel4b') Statistik
+                  #panel4b.content
+                    | Panel 4. Lorem ipsum dolor
+                dd
+                  a(href='#panel5b') Intresselista
+                  #panel5b.content
+                    #jstree
+                      ul
+                        li
+                          | Root node 1
+                          ul
+                            li#child_node_1 Child node 1
+                            li Child node 2
+                        li Root node 2
+      .row
+        .large-10.medium-8.columns
+          h3 Historik
+        .large-2.medium-4.columns
+          select
+            option(value='all-history') All historik
+            option(value='billing') Fakturering
+            option(value='other') Övrigt
+      .row.administration-content
+        .large-12.medium-12.columns
+          dl.accordion(data-accordion='data-accordion')
+            dd
+              a(href='#content1c') Samtal: förnyelse
+              #content1c.content
+                | Panel 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit
+            dd
+              a(href='#content2c') Faktura 1239 betald
+              #content2c.content
+                | Panel 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit
+            dd
+              a(href='#content3c') Faktura 1239 skapad
+              #content3c.content
+                | Panel 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit
+      .row
+        .large-12.medium-12.columns
+          h3 Kommande kontakter
+      .row.administration-content
+        .large-12.medium-12.columns
+          dl.accordion(data-accordion='data-accordion')
+            dd
+              a(href='#content1d') Samtal: förnya profilsida
+              #content1d.content
+                | Panel 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit
+            dd
+              a(href='#content2d') Byt logotyp
+              #content2d.content
+                | Panel 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit
+          a.button(href='#') Skapa ny
 
-    script(src='bower_components/jquery/dist/jquery.min.js')
-    script(src='bower_components/foundation/js/foundation.min.js')
-    script(src='js/app.js')
+  include includes/footer

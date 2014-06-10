@@ -1,7 +1,10 @@
 @import "settings";
 @import "foundation";
+@import "shared/_variables.sass";
 @import "shared/_global.sass";
 @import "shared/nav.sass";
+@import "shared/_administration-panels.sass";
+@import "shared/_tables.sass";
 
 // Or selectively include components
 // @import
