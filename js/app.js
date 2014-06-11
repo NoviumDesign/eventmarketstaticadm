@@ -8,7 +8,14 @@ $(document).foundation({
 // jsTree
 $(function () {
   // 6 create an instance when the DOM is ready
-  $('#jstree').jstree();
+  $('#jstree').jstree({
+    'core': {
+      'themes': {
+        'variant': 'small'
+      }
+    },
+    'plugins': ['checkbox']
+  });
   // 7 bind to events triggered on the tree
   $('#jstree').on("changed.jstree", function (e, data) {
     console.log(data.selected);

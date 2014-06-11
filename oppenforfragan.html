@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js"></html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ADM</title>
+  <link rel="stylesheet" href="stylesheets/app.css">
+  <link rel="stylesheet" href="js/jstree/themes/default/style.min.css">
+  <script src="bower_components/modernizr/modernizr.js"></script>
+</head>
+<body>
+  <div class="sticky">
+    <nav data-topbar="data-topbar" class="top-bar">
+      <ul class="title-area">
+        <li class="name">
+          <h1><a href="#">ADM</a></h1>
+        </li>
+        <!--Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone 
+        -->
+        <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+      </ul>
+      <section class="top-bar-section">
+        <!--Right Nav Section 
+        -->
+        <ul class="right">
+          <li><a href="#">Systeminställningar</a></li>
+          <li class="has-dropdown"><a href="#">J. Sterner</a>
+            <ul class="dropdown">
+              <li><a href="#">Kontoinställningar</a></li>
+              <li><a href="#">Logga ut</a></li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+    </nav>
+  </div>
+  <div class="row">
+    <div class="large-3 medium-4 columns">
+      <div class="hide-for-small">
+        <div class="sidebar">
+          <nav>
+            <dl data-accordion="data-accordion" class="accordion">
+              <dd><a href="#panel1">Kunddatabas & CRM</a>
+                <div id="panel1" class="content active">
+                  <ul class="side-nav">
+                    <li><a href="#">Kundkort</a></li>
+                    <li><a href="#">Kommande kontakter</a></li>
+                    <li><a href="#">Link 3</a></li>
+                    <li><a href="#">Link 4</a></li>
+                  </ul>
+                </div>
+              </dd>
+              <dd><a href="#panel2">Accordion 2</a>
+                <div id="panel2" class="content">Panel 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+              </dd>
+              <dd><a href="#panel3">Accordion 3</a>
+                <div id="panel3" class="content">Panel 3. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+              </dd>
+            </dl>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="large-9 columns medium-8 columns">
+      <h3>Skapa öppen förfrågan</h3>
+      <div class="row administration-content">
+        <div class="large-12 medium-12 columns">
+          <dl data-accordion="data-accordion" class="accordion">
+            <dd><a href="#content1">Information</a>
+              <div id="content1" class="content active">
+                <div class="row">
+                  <div class="small-6 columns">
+                    <label>Ditt namn*
+                      <input type="text">
+                    </label>
+                  </div>
+                  <div class="small-6 columns">
+                    <label>Företagsnamn
+                      <input type="text">
+                    </label>
+                  </div>
+                  <div class="small-6 columns">
+                    <label>Ditt telefonnummer*
+                      <input type="text">
+                    </label>
+                  </div>
+                  <div class="small-6 columns">
+                    <label>Din e-postadress*
+                      <input type="text">
+                    </label>
+                  </div>
+                  <div class="small-6 columns">
+                    <label>Senaste svarsdatum*
+                      <select>
+                        <option value="date">Datum</option>
+                      </select>
+                    </label>
+                  </div>
+                  <div class="small-12 columns">
+                    <label>Meddelande*
+                      <textarea></textarea>
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </dd>
+          </dl><a href="#" class="button">Skicka förfrågan</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <ul class="title-area">
+      <li class="name">Eventmarket ADM v. 1.0.17</li>
+    </ul>
+  </div>
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/foundation/js/foundation.min.js"></script>
+  <script src="js/jstree/jstree.min.js"></script>
+  <script src="js/dynatable/jquery.dynatable.js"></script>
+  <script src="js/app.js"></script>
+</body>
