@@ -1,0 +1,54 @@
+include includes/head
+body
+  include includes/nav
+
+  .row
+    include includes/sidenav
+
+    .large-9.columns.medium-8.columns
+      h3 Inspirationsbildslista
+      .row
+        .small-12.columns
+          table#customer-table.dynamic-table
+            span.dynatable-custom-select Placering
+              select#search-group(name='group')
+                option(value='event') Event
+                option(value='konferens') Konferens
+                option(value='biljett') Biljett
+                option(value='backstage') Backstage
+                option(value='annonsera') Annonsera
+                option(value='om-eventmarket') Om Eventmarket
+                option(value='alla statiska sidor') lista över statiska sidor ska hämtas in
+            thead
+              tr
+                th Rubrik
+                th Placering
+                th Ordning
+                th Status
+            tbody
+              tr
+                td Julbord
+                td 1
+                td Jul
+                td
+                  .green-ball
+              tr
+                td Bananer
+                td 3
+                td Normal
+                td
+                  .green-ball
+              tr
+                td Gaffel
+                td 3
+                td Jul
+                td 
+                  .yellow-ball
+              tr
+                td Sill
+                td 5
+                td Jul
+                td 
+                  .yellow-ball
+
+  include includes/footer

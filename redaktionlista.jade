@@ -1,0 +1,43 @@
+include includes/head
+body
+  include includes/nav
+
+  .row
+    include includes/sidenav
+
+    .large-9.columns.medium-8.columns
+      h3 Redaktionsinlägg
+      .row
+        .small-12.columns
+          table#customer-table.dynamic-table
+            span.dynatable-custom-select Typ
+              select#search-group(name='group')
+                option
+                  option Blogg
+                  option Veckans Vykort
+                  option Nyheter
+                  option Postit
+            thead
+              tr
+                th Rubrik
+                th Typ
+                th Startdatum
+              tbody
+                tr
+                  td Julbord från 99:-
+                  td Blogg
+                  td 2014-12-31
+                tr
+                  td Bananinvasion
+                  td Postit
+                  td 2015-12-12
+                tr
+                  td Kaningafflar
+                  td Veckans Vykort
+                  td 2010-12-24
+                tr
+                  td Gifflar
+                  td Postit
+                  td 2010-12-24
+
+  include includes/footer

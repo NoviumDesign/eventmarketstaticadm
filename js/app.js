@@ -5,7 +5,7 @@ $(document).foundation({
     multi_expand: true
   }
 });
-// jsTree
+// jsTree kundkort
 $(function () {
   // 6 create an instance when the DOM is ready
   $('#jstree').jstree({
@@ -25,6 +25,28 @@ $(function () {
     $('#jstree').jstree(true).select_node('child_node_1');
     $('#jstree').jstree('select_node', 'child_node_1');
     $.jstree.reference('#jstree').select_node('child_node_1');
+  });
+});
+// jsTree Profilsida
+$(function () {
+  // 6 create an instance when the DOM is ready
+  $('#jstree-profil').jstree({
+    'core': {
+      'themes': {
+        'variant': 'small'
+      }
+    },
+    'plugins': ['checkbox']
+  });
+  // 7 bind to events triggered on the tree
+  $('#jstree-profil').on("changed.jstree", function (e, data) {
+    console.log(data.selected);
+  });
+  // 8 interact with the tree - either way is OK
+  $('button').on('click', function () {
+    $('#jstree-profil').jstree(true).select_node('child_node_1');
+    $('#jstree-profil').jstree('select_node', 'child_node_1');
+    $.jstree.reference('#jstree-profil').select_node('child_node_1');
   });
 });
 //Dynatable global settings
@@ -70,3 +92,33 @@ jQuery(document).ready(function($) {
     window.document.location = $(this).data('url');
   });
 });
+// Datepicker
+$(document).ready(function() {
+  $('#profile-period-start').Zebra_DatePicker({
+    show_icon: false,
+    direction: true,
+    offset: [-160, -5],
+    pair: $('#profile-period-end')
+  });
+  $('#profile-period-end').Zebra_DatePicker({
+    show_icon: false,
+    direction: true,
+    offset: [-160, -5]
+  });
+  $('#top-placement-start').Zebra_DatePicker({
+    show_icon: false,
+    direction: true,
+    offset: [-160, -5],
+    pair: $('#top-placement-end')
+  });
+  $('#top-placement-end').Zebra_DatePicker({
+    show_icon: false,
+    direction: true,
+    offset: [-160, -5]
+  });
+  $('#latest-answer-date').Zebra_DatePicker({
+    show_icon: false,
+    direction: 10,
+    offset: [-160, -5]
+  });
+ });

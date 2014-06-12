@@ -108,38 +108,16 @@ body
                       input#input4(type='radio', name='price', value='90-120')
                       label(for='input4') 90-120 tkr
                     hr
-                  .small-3.columns
-                    label
-                      | Huvudkategori
-                      select
-                        option(value='underhallning') Underhållning
-                        option(value='catering') Catering
-                        option(value='personal') Personal
-                        option(value='konferens') Konferens
-                  .small-3.columns
-                    label
-                      | Underkategori
-                      select
-                        option(value='showgrupper') Showgrupper
-                        option(value='barnFamilj') Barn & Familj
-                        option(value='magiTrolleri') Magi & Trolleri
-                        option(value='humorStandup') Humor & Standup
-                  .small-3.columns
-                    label
-                      | Huvudkategori
-                      select
-                        option(value='arrangorer') Arrangörer
-                        option(value='aktiviteter') Aktiviteter
-                        option(value='teknik') Teknik
-                        option(value='transporter') Transporter
-                  .small-3.columns
-                    label
-                      | Underkategori
-                      select
-                        option(value='djur') Djur
-                        option(value='kreativtSkapande') Kreativt Skapande
-                        option(value='motor') Motor
-                        option(value='musikaliskaAktiviteter') Musikaliska aktiviteter
+                  .small-12.columns
+                    h6 Kategorier
+                    #jstree-profil
+                      ul
+                        li
+                          | Huvudkategori
+                          ul
+                            li#child_node_1 Underkategori
+                            li Underkategori
+                        li Huvudkategori
                   .small-12.columns
                     hr
                     img(src="http://placehold.it/950x250")
@@ -215,26 +193,22 @@ body
                       .small-3.columns
                         label
                           | Startperiod
-                          select
-                            option(value='date') Datum
+                          input#profile-period-start.datepicker
                       .small-3.columns.end
                         label
                           | Slutperiod
-                          select
-                            option(value='date') Datum
+                          input#profile-period-end.datepicker
                   .small-12.columns
                     h6 Toppplacering
                     .row
                       .small-3.columns
                         label
                           | Startperiod
-                          select
-                            option(value='date') Datum
+                          input#top-placement-start.datepicker
                       .small-3.columns.end
                         label
                           | Slutperiod
-                          select
-                            option(value='date') Datum
+                          input#top-placement-end.datepicker
                     hr
                   .small-12.columns
                     label Synlighetsinställningar

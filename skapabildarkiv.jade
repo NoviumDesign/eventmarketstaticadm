@@ -1,0 +1,81 @@
+include includes/head
+body
+  include includes/nav
+
+  .row
+    include includes/sidenav
+
+    .large-9.columns.medium-8.columns
+      h3 Album
+      .row.administration-content
+        .large-12.medium-12.columns
+          dl.accordion(data-accordion='data-accordion')
+            dd
+              a(href='#content1') Nytt album
+              #content1.content.active
+                .row
+                  .small-12.columns
+                    label
+                      | Titel
+                      input(type='text')
+                  .small-12.columns
+                    h6 Header
+                    label
+                      | Rubrik
+                      input(type='text')
+                    label
+                      | Text
+                      textarea
+                    img(src="http://placehold.it/900x250")
+                    a.button.expand Ladda upp bild
+                  .small-12.columns
+                    h6 Albumbilder
+                    ul.small-block-grid-1.medium-block-grid-2.large-block-grid-4
+                      li
+                        a(href='#')
+                          img(src="http://placehold.it/450x300&text=Ny bild")
+                        a.button.expand Ladda upp ny bild
+          dl.accordion(data-accordion='data-accordion')
+            dd
+              a(href='#content2') Mitt fina album
+              #content2.content.active
+                .row
+                  .small-12.columns
+                    label
+                      | Titel
+                      input(type='text')
+                  .small-12.columns
+                    h6 Header
+                    label
+                      | Rubrik
+                      input(type='text')
+                    label
+                      | Text
+                      textarea
+                    img(src="http://placehold.it/900x250")
+                    a.button.expand Ladda upp bild
+                  .small-12.columns
+                    h6 Albumbilder
+                    ul.small-block-grid-1.medium-block-grid-2.large-block-grid-4
+                      li
+                        img(src="http://placehold.it/450x300")
+                        a.button.expand.alert Radera bild
+                      li
+                        img(src="http://placehold.it/450x300")
+                        a.button.expand.alert Radera bild
+                      li
+                        img(src="http://placehold.it/450x300")
+                        a.button.expand.alert Radera bild
+                      li
+                        img(src="http://placehold.it/450x300")
+                        a.button.expand.alert Radera bild
+                      li
+                        a(href='#')
+                          img(src="http://placehold.it/450x300&text=Ny bild")
+                        a.button.expand Ladda upp ny bild
+
+
+        .large-2.columns.end
+          a.button(href='#') Spara
+
+  include includes/footer

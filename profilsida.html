@@ -6,6 +6,7 @@
   <title>ADM</title>
   <link rel="stylesheet" href="stylesheets/app.css">
   <link rel="stylesheet" href="js/jstree/themes/default/style.min.css">
+  <link rel="stylesheet" href="js/datepicker/bootstrap.css">
   <script src="bower_components/modernizr/modernizr.js"></script>
 </head>
 <body>
@@ -183,45 +184,19 @@
                     </label>
                     <hr>
                   </div>
-                  <div class="small-3 columns">
-                    <label>Huvudkategori
-                      <select>
-                        <option value="underhallning">Underhållning</option>
-                        <option value="catering">Catering</option>
-                        <option value="personal">Personal</option>
-                        <option value="konferens">Konferens</option>
-                      </select>
-                    </label>
-                  </div>
-                  <div class="small-3 columns">
-                    <label>Underkategori
-                      <select>
-                        <option value="showgrupper">Showgrupper</option>
-                        <option value="barnFamilj">Barn & Familj</option>
-                        <option value="magiTrolleri">Magi & Trolleri</option>
-                        <option value="humorStandup">Humor & Standup</option>
-                      </select>
-                    </label>
-                  </div>
-                  <div class="small-3 columns">
-                    <label>Huvudkategori
-                      <select>
-                        <option value="arrangorer">Arrangörer</option>
-                        <option value="aktiviteter">Aktiviteter</option>
-                        <option value="teknik">Teknik</option>
-                        <option value="transporter">Transporter</option>
-                      </select>
-                    </label>
-                  </div>
-                  <div class="small-3 columns">
-                    <label>Underkategori
-                      <select>
-                        <option value="djur">Djur</option>
-                        <option value="kreativtSkapande">Kreativt Skapande</option>
-                        <option value="motor">Motor</option>
-                        <option value="musikaliskaAktiviteter">Musikaliska aktiviteter</option>
-                      </select>
-                    </label>
+                  <div class="small-12 columns">
+                    <h6>Kategorier</h6>
+                    <div id="jstree-profil">
+                      <ul>
+                        <li>Huvudkategori
+                          <ul>
+                            <li id="child_node_1">Underkategori</li>
+                            <li>Underkategori</li>
+                          </ul>
+                        </li>
+                        <li>Huvudkategori</li>
+                      </ul>
+                    </div>
                   </div>
                   <div class="small-12 columns">
                     <hr><img src="http://placehold.it/950x250"><a href="#" class="button expand">Ladda upp bild</a>
@@ -308,16 +283,12 @@
                     <div class="row">
                       <div class="small-3 columns">
                         <label>Startperiod
-                          <select>
-                            <option value="date">Datum</option>
-                          </select>
+                          <input id="profile-period-start" class="datepicker">
                         </label>
                       </div>
                       <div class="small-3 columns end">
                         <label>Slutperiod
-                          <select>
-                            <option value="date">Datum</option>
-                          </select>
+                          <input id="profile-period-end" class="datepicker">
                         </label>
                       </div>
                     </div>
@@ -327,16 +298,12 @@
                     <div class="row">
                       <div class="small-3 columns">
                         <label>Startperiod
-                          <select>
-                            <option value="date">Datum</option>
-                          </select>
+                          <input id="top-placement-start" class="datepicker">
                         </label>
                       </div>
                       <div class="small-3 columns end">
                         <label>Slutperiod
-                          <select>
-                            <option value="date">Datum</option>
-                          </select>
+                          <input id="top-placement-end" class="datepicker">
                         </label>
                       </div>
                     </div>
@@ -367,5 +334,6 @@
   <script src="bower_components/foundation/js/foundation.min.js"></script>
   <script src="js/jstree/jstree.min.js"></script>
   <script src="js/dynatable/jquery.dynatable.js"></script>
+  <script src="js/datepicker/zebra_datepicker.js"></script>
   <script src="js/app.js"></script>
 </body>

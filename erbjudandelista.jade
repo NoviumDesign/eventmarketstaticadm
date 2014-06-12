@@ -1,0 +1,55 @@
+include includes/head
+body
+  include includes/nav
+
+  .row
+    include includes/sidenav
+
+    .large-9.columns.medium-8.columns
+      h3 Erbjudanden
+      .row
+        .small-12.columns
+          table#customer-table.dynamic-table
+            span.dynatable-custom-select Typ
+              select#search-group(name='group')
+                option
+                  option Normal
+                  option Jul
+            thead
+              tr
+                th Rubrik
+                th Företag
+                th Typ
+                th Slutdatum
+                th Publikt
+              tbody
+                tr
+                  td Julbord från 99:-
+                  td Nilssons Kanincirkus
+                  td Jul
+                  td 2014-12-31
+                  td
+                    .green-ball
+                tr
+                  td Bananer 98:-/styck
+                  td Arnes Sillfiskeri HB
+                  td Normal
+                  td 2015-12-12
+                  td
+                    .green-ball
+                tr
+                  td Gaffel 1:-/styck
+                  td Gaffelfabriken
+                  td Jul
+                  td 2010-12-24
+                  td 
+                    .yellow-ball
+                tr
+                  td Gaffel 1:-/styck
+                  td Gaffelmakaren
+                  td Jul
+                  td 2010-12-24
+                  td 
+                    .yellow-ball
+
+  include includes/footer

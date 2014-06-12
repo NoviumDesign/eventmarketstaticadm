@@ -1,0 +1,63 @@
+include includes/head
+body
+  include includes/nav
+
+  .row
+    include includes/sidenav
+
+    .large-9.columns.medium-8.columns
+      h3 Skapa inlägg i redaktionen
+      .row.administration-content
+        .large-12.medium-12.columns
+          dl.accordion(data-accordion='data-accordion')
+            dd
+              a(href='#content1') Skapa inlägg i redaktionen
+              #content1.content.active
+                .row
+                  .small-3.columns
+                    label
+                      | Placering
+                      select
+                        option(value='om-eventmarket') Om Eventmarket
+                        option(value='annonsera') Annonsera
+                        option(value='tips-rad') Tips & Råd
+                        option(value='frisida') Frisida
+                  .small-3.columns.end
+                    label
+                      | Ordning (siffra)
+                      input(type='text')
+                  .small-12.columns
+                    label
+                      | Titel
+                      input(type='text')
+                  .small-12.columns
+                    label
+                      | Ingress
+                      textarea
+                  .small-12.columns
+                    label
+                      | Brödtext
+                      textarea
+                  .small-6.columns
+                    h6 Listbild
+                    img(src='http://placehold.it/450x250')
+                    a.button.expand Redigera listbild
+                  .small-6.columns
+                    h6 Sidbild
+                    a.button.expand Laddda upp sidbild
+                  .small-12.columns
+                    h6 SEO
+                    label
+                      | Rubrik
+                      input(type='text')
+                    label
+                      | Beskrivning
+                      textarea
+                    hr
+                    .row
+                      .small-3.columns
+                        a.button.expand(href='#') Spara
+                      .small-3.columns.end
+                        a.button.expand.alert(href='#') Radera
+
+  include includes/footer

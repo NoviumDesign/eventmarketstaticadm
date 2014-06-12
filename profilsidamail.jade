@@ -6,12 +6,12 @@ body
     include includes/sidenav
 
     .large-9.columns.medium-8.columns
-      h3 Skapa öppen förfrågan
+      h3 Skicka mail till profilsida
       .row.administration-content
         .large-12.medium-12.columns
           dl.accordion(data-accordion='data-accordion')
             dd
-              a(href='#content1') Information
+              a(href='#content1') Mail
               #content1.content.active
                 .row
                   .small-6.columns
@@ -34,11 +34,7 @@ body
                     label
                       | Meddelande*
                       textarea
-                  .small-3.columns.end
-                    label
-                      | Senaste svarsdatum*
-                      input#latest-answer-date.datepicker
 
-          a.button(href='#') Skicka förfrågan
+          a.button(href='#') Skicka mailet till [profilsidans mailadress]
 
   include includes/footer

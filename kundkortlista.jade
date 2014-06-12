@@ -1,0 +1,73 @@
+include includes/head
+body
+  include includes/nav
+
+  .row
+    include includes/sidenav
+
+    .large-9.columns.medium-8.columns
+      h3 Kundkortslista
+      .row
+        .small-12.columns
+          span.dynatable-custom-select Grupptillhörighet
+            select#search-group(name='group')
+              option
+                option Alla
+                option Medlem
+                option Prospect
+                option Privat
+                option Företag
+          span.dynatable-custom-select Aktivitet
+            select#search-group(name='group')
+              option
+                option 0-12 mån
+                option 12-36 mån
+                option 36+ mån
+          span.dynatable-custom-select Kundansvarig
+            select#search-group(name='group')
+              option
+                option Jennie Sterner
+                option Johnny Sterner
+                option Toni Lahtinen
+          table#group-table.dynamic-table
+            thead
+              tr
+                th Företag / Kontaktperson
+                th Grupptillhörighet
+                th Senaste Aktivitet
+                th Kundansvarig
+            tbody
+              tr
+                td 
+                  | Giacomo Guilizzoni
+                  br
+                  | Founder & CEO
+                td Propect
+                td 0-12 mån
+                td Jennie Sterner
+              tr
+                td 
+                  | Lorem Ipsum
+                  br
+                  | Founder & CEO
+                td Medlem
+                td 12-36 mån
+                td Johnny Sterner
+              tr
+                td 
+                  | Giacomo Guilizzoni
+                  br
+                  | Founder & CEO
+                td Propect
+                td 0-12 mån
+                td Jennie Sterner
+              tr
+                td 
+                  | Lorem Ipsum
+                  br
+                  | Founder & CEO
+                td Medlem
+                td 12-36 mån
+                td Johnny Sterner
+
+  include includes/footer

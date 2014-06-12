@@ -1,0 +1,54 @@
+include includes/head
+body
+  include includes/nav
+
+  .row
+    include includes/sidenav
+
+    .large-9.columns.medium-8.columns
+      h3 Skapa inlägg i redaktionen
+      .row.administration-content
+        .large-12.medium-12.columns
+          dl.accordion(data-accordion='data-accordion')
+            dd
+              a(href='#content1') Skapa inlägg i redaktionen
+              #content1.content.active
+                .row
+                  .small-3.columns
+                    label
+                      | Typ
+                      select
+                        option(value='blogg') Blogg
+                        option(value='veckans-vykort') Veckans Vykort
+                        option(value='nyheter') Nyheter
+                        option(value='postit') Postit
+                  .small-3.columns.end
+                    label
+                      | Startdatum
+                      input#profile-period-start.datepicker
+                  .small-12.columns
+                    label
+                      | Titel
+                      input(type='text')
+                  .small-12.columns
+                    label
+                      | Brödtext
+                      textarea
+                  .small-12.columns
+                    label
+                      | SEO
+                      input(type='text')
+                  .small-12.columns
+                    ul.small-block-grid-1.medium-block-grid-2
+                      li
+                        img(src="http://placehold.it/450x300")
+                        a.button.expand Ladda upp bild
+                      li
+                        img(src="http://placehold.it/450x300")
+                        a.button.expand Ladda upp bild
+
+
+        .large-2.columns.end
+          a.button(href='#') Skapa redaktionsinlägg
+
+  include includes/footer
