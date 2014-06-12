@@ -35,8 +35,15 @@ body
                       | Brödtext
                       textarea
                   .small-12.columns
+                    h6 SEO
                     label
-                      | SEO
+                      | Titel (max 70 tecken)
+                      input(type='text' maxlength='70')
+                    label
+                      | Beskrivning (max 150 tecken)
+                      textarea(maxlength='150')
+                    label
+                      | Sökord/taggar
                       input(type='text')
                   .small-12.columns
                     ul.small-block-grid-1.medium-block-grid-2

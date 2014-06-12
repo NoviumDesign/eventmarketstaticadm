@@ -43,8 +43,15 @@ body
                           | Länk till profilsida
                           input(type='text')
                       .small-12.columns
+                        h6 SEO
                         label
-                          | SEO
+                          | Titel (max 70 tecken)
+                          input(type='text' maxlength='70')
+                        label
+                          | Beskrivning (max 150 tecken)
+                          textarea(maxlength='150')
+                        label
+                          | Sökord/taggar
                           input(type='text')
                   .small-4.columns
                     img(src="http://placehold.it/350x350")

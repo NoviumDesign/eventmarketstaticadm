@@ -46,13 +46,16 @@ body
                     h6 Sidbild
                     a.button.expand Laddda upp sidbild
                   .small-12.columns
-                    h6 SEO
+                    hh6 SEO
                     label
-                      | Rubrik
+                      | Titel (max 70 tecken)
+                      input(type='text' maxlength='70')
+                    label
+                      | Beskrivning (max 150 tecken)
+                      textarea(maxlength='150')
+                    label
+                      | Sökord/taggar
                       input(type='text')
-                    label
-                      | Beskrivning
-                      textarea
                     hr
                     .row
                       .small-3.columns
