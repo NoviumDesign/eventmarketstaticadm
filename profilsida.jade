@@ -42,8 +42,15 @@ body
                           input(type='text')
                       .small-6.columns
                         label
+                          | Län
+                          input(type='text')
+                      .small-6.columns.end
+                        label
                           | Land
                           input(type='text')
+                    .row
+                      .small-12.columns
+                        hr
                       .small-6.columns
                         label
                           | Telefon 1
@@ -52,14 +59,25 @@ body
                         label
                           | Telefon 2
                           input(type='text')
-                      .small-6.columns
+                      .small-6.columns.end
                         label
                           | E-postadress
                           input(type='text')
+                    .row
+                      .small-12.columns
+                        hr
                       .small-6.columns
                         label
-                          | URL-adress
-                          input(type='text')
+                          | Länk till Facebook
+                          input(type='url')
+                      .small-6.columns
+                        label
+                          | Länk till Twitter
+                          input(type='url')
+                      .small-6.columns.end
+                        label
+                          | Länk till Instagram
+                          input(type='url')
                   .small-4.columns
                     img(src="http://placehold.it/350x350")
                     a.button.expand(href='#') Ladda upp logotyp
@@ -75,38 +93,38 @@ body
                   .small-6.columns
                     label
                       | Största sällskap
-                      input(type='text')
+                      input(type='number')
                   .small-6.columns
                     label
                       | Antal mötesrum
-                      input(type='text')
+                      input(type='number')
                   .small-6.columns
                     label
                       | Största möteslokal
-                      input(type='text')
+                      input(type='number')
                   .small-6.columns
                     label
                       | Sittande matgäster
-                      input(type='text')
+                      input(type='number')
                   .small-6.columns
                     label
                       | Mingel/stående
-                      input(type='text')
+                      input(type='number')
                   .small-6.columns
                     label
                       | Logi, antal bäddar
-                      input(type='text')
+                      input(type='number')
                   .small-12.columns
                     label Artistpris
                       br
                       input#input1(type='radio', name='price', value='0-30')
-                      label(for='input1') 0-30 tkr
+                      label(for='input1') 0-15 tkr
                       input#input2(type='radio', name='price', value='30-60')
-                      label(for='input2') 30-60 tkr
+                      label(for='input2') 15-50 tkr
                       input#input3(type='radio', name='price', value='60-90')
-                      label(for='input3') 60-90 tkr
+                      label(for='input3') 50-100 tkr
                       input#input4(type='radio', name='price', value='90-120')
-                      label(for='input4') 90-120 tkr
+                      label(for='input4') över 100 tkr
                     hr
                   .small-12.columns
                     h6 Kategorier
@@ -118,67 +136,58 @@ body
                             li#child_node_1 Underkategori
                             li Underkategori
                         li Huvudkategori
+            dd
+              a(href='#content3') Flikar
+              #content3.content.active
+                .row
                   .small-12.columns
-                    hr
-                    img(src="http://placehold.it/950x250")
-                    a.button.expand(href='#') Ladda upp bild
-                  .small-6.columns
                     h6 Presentations-flik
                     label
                       | Rubrik
                       input(type='text')
-                  .small-6.columns
-                    h6 Extra-flik
-                    label
-                      | Rubrik (max 15 tecken)
-                      input(type='text' maxlength='15')
-                  .small-6.columns
                     label
                       | Text
                       textarea
-                  .small-6.columns
+                  .small-12.columns
+                    h6 Extra-flik
+                    label
+                      | Fliknamn
+                      input(type='text')
+                    label
+                      | Rubrik
+                      input(type='text')
                     label
                       | Text
                       textarea
             dd
-              a(href='#content3') Erbjudande-flik
-              #content3.content.active
+              a(href='#content4') Media
+              #content4.content.active
+                .row
+                  .small-12.columns
+                    img(src="http://placehold.it/950x250")
+                    a.button.expand(href='#') Ladda upp bild
+                    label
+                      | Bildtext
+                      textarea
+                    hr
+                  .small-4.columns
+                    a.button.expand(href='#') Ladda upp filmklipp
+                  .small-4.columns
+                    a.button.expand(href='#') Ladda upp ljudfiler
+                  .small-4.columns
+                    a.button.expand(href='#') Ladda upp pdf-filer
+            dd
+              a(href='#content5') Karta
+              #content5.content.active
                 .row
                   .small-12.columns
                     label
                       | Adress för karta
                       input(type='text')
-                    hr
-                  .small-12.columns
-                    h6 Media
-                    .row
-                      .small-4.columns
-                        a.button.expand(href='#') Ladda upp filmklipp
-                      .small-4.columns
-                        a.button.expand(href='#') Ladda upp ljudfiler
-                      .small-4.columns
-                        a.button.expand(href='#') Ladda upp pdf-filer
-                    hr
-                  .small-12.columns
-                    h6 SEO
-                    label
-                      | Titel (max 70 tecken)
-                      input(type='text' maxlength='70')
-                    label
-                      | Beskrivning (max 150 tecken)
-                      textarea(maxlength='150')
-                    label
-                      | Sökord/taggar
-                      input(type='text')
             dd
-              a(href='#content4') Sidinställningar
-              #content4.content.active
+              a(href='#content6') Sidinställningar
+              #content6.content.active
                 .row
-                  .small-12.columns
-                    label
-                      | URL-adress
-                      input(type='text')
-                    hr
                   .small-12.columns
                     label
                       | Sidtyp
@@ -199,7 +208,7 @@ body
                           | Slutperiod
                           input#profile-period-end.datepicker
                   .small-12.columns
-                    h6 Toppplacering
+                    h6 Topplacering
                     .row
                       .small-3.columns
                         label
@@ -217,6 +226,23 @@ body
                       label(for='show') Synlig
                       input#hidden(type='radio', name='value', value='hidden')
                       label(for='hidden') Släckt
+            dd
+              a(href='#content7') SEO
+              #content7.content.active
+                .row
+                  .small-12.columns
+                      label
+                        | Profilsidans URL-adress
+                        input(type='text')
+                      label
+                        | Titel (max 70 tecken)
+                        input(type='text' maxlength='70')
+                      label
+                        | Beskrivning (max 150 tecken)
+                        textarea(maxlength='150')
+                      label
+                        | Sökord/taggar
+                        input(type='text')
 
           a.button(href='#') Spara
 

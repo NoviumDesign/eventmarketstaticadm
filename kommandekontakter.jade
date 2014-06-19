@@ -9,6 +9,12 @@ body
       h3 Kommande kontakter
       .row
         .small-12.columns
+          span.dynatable-custom-select Tidspann
+            select#search-group(name='timespan')
+              option
+                option(value='dagens') Dagens
+                option(value='forfallna') Förfallna
+                option(value='framtid') Framtid
           span.dynatable-custom-select Kundansvarig
             select#search-group(name='group')
               option

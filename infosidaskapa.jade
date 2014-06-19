@@ -6,13 +6,17 @@ body
     include includes/sidenav
 
     .large-9.columns.medium-8.columns
-      h3 Skapa inlägg i redaktionen
+      h3 Skapa infosida
       .row.administration-content
+        .small-12.medium-6.columns
+          a.button.expand Skapa vanlig sida
+        .small-12.medium-6.columns
+          a.button.expand Skapa sida som fast lista
         .large-12.medium-12.columns
           dl.accordion(data-accordion='data-accordion')
             dd
-              a(href='#content1') Skapa inlägg i redaktionen
-              #content1.content.active
+              a(href='#content1') Skapa sida
+              #content1.content
                 .row
                   .small-3.columns
                     label

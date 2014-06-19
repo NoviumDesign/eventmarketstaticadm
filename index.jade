@@ -74,7 +74,32 @@ body
                               a(href='#') kalle.kanin@kanincatering.se
                             li 0706 27 29 12
                   .small-12.columns
-                    a.button.expand(href='#') Skapa ny kontakt
+                    a.button.expand(href='#' data-reveal-id="newEmployee") Skapa ny kontakt
+                    #newEmployee.reveal-modal(data-reveal='data-reveal')
+                      h2 Skapa ny personal
+                        .row
+                          .small-12.medium-6.columns
+                            label
+                              | Rubrik (t.ex. Medarbetare)
+                              input(type='text')
+                            label
+                              | Namn
+                              input(type='text')
+                            label
+                              | Titel
+                              input(type='text')
+                            label
+                              | E-post
+                              input(type='text')
+                            label
+                              | Telefonnummer
+                              input(type='text')
+                          .small-12.medium-6.columns
+                            a.button.expand Ladda upp profilbild
+                        .row
+                          .small-12.columns
+                            a.button Spara ny personal
+                        a.close-reveal-modal ×
             dd
               a(href='#content2') Addresser
               #content2.content
@@ -87,39 +112,104 @@ body
                   thead
                     tr
                       th Sidans namn
-                      th Företag
                       th Kontaktperson
-                      th Sökord / Taggar
+                      th Giltig t.o.m.
+                      th Storlek
                       th Synlig / Släckt
                   tbody
                     tr
                       td Lindaus bokningssida
-                      td Lindau produktion
                       td Anders Lundin
-                      td anders, lundin, bokning
-                      td Synlig
+                      td 2013-06-05
+                      td Small
+                      td 
+                        .green-ball
                     tr
                       td Inlands bussbiljetter
-                      td Inlands busstrafik AB
                       td Kalle Kanin
-                      td buss, brum, biljett
-                      td Släckt
+                      td 2013-06-06
+                      td Medium
+                      td
+                        .red-ball
                     tr
                       td Lindaus bokningssida
-                      td Lindau produktion
                       td Anders Lundin
-                      td anders, lundin, bokning
-                      td Synlig
+                      td 2013-06-05
+                      td Large
+                      td
+                        .green-ball
                     tr
                       td Inlands bussbiljetter
-                      td Inlands busstrafik AB
                       td Kalle Kanin
-                      td buss, brum, biljett
-                      td Släckt
+                      td 2013-06-06
+                      td Medium
+                      td
+                        .red-ball
             dd
                   a(href='#panel4b') Statistik
                   #panel4b.content
-                    | Panel 4. Lorem ipsum dolor
+                    .row
+                      .small-12.medium-12.columns
+                        h6 Profilsidor
+                        table#my-table.dynamic-table
+                          thead
+                            tr
+                              th Sidans namn
+                              th Antal visningar
+                              th Anta klick
+                          tbody
+                            tr
+                              td Lindaus bokningssida
+                              td 213
+                              td 111
+                            tr
+                              td Inlands bussbiljetter
+                              td 432
+                              td 321
+                            tr
+                              td Lindaus bokningssida
+                              td 5234
+                              td 3213
+                            tr
+                              td Inlands bussbiljetter
+                              td 532
+                              td 232
+                      .small-12.medium-12.columns
+                        h6 Erbjudanden
+                        table#my-table.dynamic-table
+                          thead
+                            tr
+                              th Erbjudandets namn
+                              th Antal visningar från profilsida
+                              th Anta klick från profilsida
+                              th Antal visningar från erbjudandesida
+                              th Anta klick från erbjudandesida
+                          tbody
+                            tr
+                              td Gaffel 1kr/styck
+                              td 213
+                              td 111
+                              td 213
+                              td 111
+                            tr
+                              td Bilknyckning 300kr/timme
+                              td 432
+                              td 321
+                              td 432
+                              td 321
+                            tr
+                              td Banan 32kr/kg
+                              td 5234
+                              td 3213
+                              td 5234
+                              td 3213
+                            tr
+                              td Gaffel 1kr/styck
+                              td 532
+                              td 232
+                              td 532
+                              td 232
+                      .small-12.medium-6
         .large-12.medium-12.columns
           ul.small-block-grid-1.large-block-grid-2
             li
@@ -152,13 +242,13 @@ body
                             td 2010-11-23
                             td 2010-12-24
                             td 
-                              .yellow-ball
+                              .red-ball
                           tr
                             td Gaffel 1:-/styck
                             td 2010-11-23
                             td 2010-12-24
                             td 
-                              .yellow-ball
+                              .red-ball
                     a.button.expand Nytt erbjudande
             li
               dl.accordion(data-accordion='myAccordionGroup')
@@ -186,16 +276,37 @@ body
           dl.accordion(data-accordion='data-accordion')
             dd
               a(href='#content1c') Samtal: förnyelse
+                span.date datum
               #content1c.content
-                | Panel 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                .row
+                  .small-12.columns
+                    p Panel 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                  .small-12.columns
+                    a.button.alert Radera
             dd
               a(href='#content2c') Faktura 1239 betald
+                span.date datum
               #content2c.content
-                | Panel 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                .row
+                  .small-12.columns
+                    p Panel 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                  .small-12.columns
+                    a.button.alert Radera
             dd
               a(href='#content3c') Faktura 1239 skapad
+                span.date datum
               #content3c.content
-                | Panel 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                .row
+                  .small-12.columns
+                    p Panel 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                  .small-12.columns
+                    a.button.alert Radera
+          a.button(data-reveal-id='newHistory') Skapa ny historik
+          #newHistory.reveal-modal(data-reveal='data-reveal')
+            h2 Awesome. I have it.
+              p.lead Your couch.  It is mine.
+              p Im a cool paragraph that lives inside of an even cooler modal. Wins
+              a.close-reveal-modal ×
       .row
         .large-12.medium-12.columns
           h3 Kommande kontakter
@@ -203,13 +314,23 @@ body
         .large-12.medium-12.columns
           dl.accordion(data-accordion='data-accordion')
             dd
-              a(href='#content1d') Samtal: förnya profilsida
+              a(href='#content1d') Samtal: förnya profilsida Lindaus Bokningssida
+                span.date datum + klockslag
               #content1d.content
-                | Panel 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                .row
+                  .small-12.columns
+                    p Panel 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                  .small-12.columns
+                    a.button Klar
             dd
               a(href='#content2d') Byt logotyp
+                span.date datum + klockslag
               #content2d.content
-                | Panel 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                .row
+                  .small-12.columns
+                    p Panel 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                  .small-12.columns
+                    a.button Klar
           a.button(href='#') Skapa ny
 
   include includes/footer

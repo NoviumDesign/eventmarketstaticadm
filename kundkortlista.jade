@@ -17,57 +17,142 @@ body
                 option Prospect
                 option Privat
                 option Företag
-          span.dynatable-custom-select Aktivitet
-            select#search-group(name='group')
-              option
-                option 0-12 mån
-                option 12-36 mån
-                option 36+ mån
           span.dynatable-custom-select Kundansvarig
             select#search-group(name='group')
               option
                 option Jennie Sterner
                 option Johnny Sterner
                 option Toni Lahtinen
+          span.dynatable-custom-select Aktivitet
+            select#search-group(name='group')
+              option
+                option 0-12 mån
+                option 12-36 mån
+                option 36+ mån
           table#group-table.dynamic-table
             thead
               tr
                 th Företag / Kontaktperson
                 th Grupptillhörighet
-                th Senaste Aktivitet
                 th Kundansvarig
+                th Senaste Aktivitet
             tbody
               tr
                 td 
-                  | Giacomo Guilizzoni
+                  | Götlaborg Sill AB
                   br
-                  | Founder & CEO
+                  | Adam Nilsson
                 td Propect
-                td 0-12 mån
                 td Jennie Sterner
+                td 0-12 mån
+                td 
+                  a.button(data-reveal-id="quickInfo") Snabbinfo
               tr
                 td 
-                  | Lorem Ipsum
+                  | Stryckjärnet AB
                   br
-                  | Founder & CEO
+                  | Karin Kanin
                 td Medlem
-                td 12-36 mån
                 td Johnny Sterner
+                td 12-36 mån
+                td 
+                  a.button(data-reveal-id="quickInfo") Snabbinfo
               tr
                 td 
-                  | Giacomo Guilizzoni
+                  | Götlaborg Sill AB
                   br
-                  | Founder & CEO
+                  | Adam Nilsson
                 td Propect
-                td 0-12 mån
                 td Jennie Sterner
+                td 0-12 mån
+                td 
+                  a.button(data-reveal-id="quickInfo") Snabbinfo
               tr
                 td 
-                  | Lorem Ipsum
+                  | Stryckjärnet AB
                   br
-                  | Founder & CEO
+                  | Karin Kanin
                 td Medlem
-                td 12-36 mån
                 td Johnny Sterner
+                td 12-36 mån
+                td 
+                  a.button(data-reveal-id="quickInfo") Snabbinfo
+          #quickInfo.reveal-modal(data-reveal='data-reveal')
+            .row
+              .small-12.columns
+                h2 Snabbinfo
+              .small-12.columns
+                h4 Profilsidor
+                table#customer-table.dynamic-table
+                  thead
+                    tr
+                      th Sidans namn
+                      th Kontaktperson
+                      th Giltig t.o.m.
+                      th Storlek
+                      th Synlig / Släckt
+                  tbody
+                    tr
+                      td Lindaus bokningssida
+                      td Anders Lundin
+                      td 2013-06-05
+                      td Small
+                      td 
+                        .green-ball
+                    tr
+                      td Inlands bussbiljetter
+                      td Kalle Kanin
+                      td 2013-06-06
+                      td Medium
+                      td
+                        .red-ball
+                    tr
+                      td Lindaus bokningssida
+                      td Anders Lundin
+                      td 2013-06-05
+                      td Large
+                      td
+                        .green-ball
+                    tr
+                      td Inlands bussbiljetter
+                      td Kalle Kanin
+                      td 2013-06-06
+                      td Medium
+                      td
+                        .red-ball
+              .small-12.columns
+                h4 Erbjudanden
+                table#my-table.dynamic-table
+                  thead
+                      tr
+                        th Rubrik
+                        th Aktiv fr.o.m.
+                        th Slutdatum
+                        th Publikt
+                    tbody
+                      tr
+                        td Julbord från 99:-
+                        td 2013-02-12
+                        td 2014-12-31
+                        td
+                          .red-ball
+                      tr
+                        td Bananer 98:-/styck
+                        td 2010-12-23
+                        td 2015-12-12
+                        td
+                          .green-ball
+                      tr
+                        td Gaffel 1:-/styck
+                        td 2010-11-23
+                        td 2010-12-24
+                        td 
+                          .red-ball
+                      tr
+                        td Gaffel 1:-/styck
+                        td 2010-11-23
+                        td 2010-12-24
+                        td 
+
 
   include includes/footer

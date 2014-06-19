@@ -18,16 +18,13 @@ body
                     label
                       | Titel
                       input(type='text')
-                  .small-12.columns
-                    h6 Header
                     label
-                      | Rubrik
-                      input(type='text')
-                    label
-                      | Text
+                      | Brödtext
                       textarea
+                  .small-12.columns
+                    h6 Omslagsbild
                     img(src="http://placehold.it/900x250")
-                    a.button.expand Ladda upp bild
+                    a.button.expand Ladda upp omslagsbild
                   .small-12.columns
                     h6 Albumbilder
                     ul.small-block-grid-1.medium-block-grid-2.large-block-grid-4
@@ -35,45 +32,20 @@ body
                         a(href='#')
                           img(src="http://placehold.it/450x300&text=Ny bild")
                         a.button.expand Ladda upp ny bild
-          dl.accordion(data-accordion='data-accordion')
-            dd
-              a(href='#content2') Mitt fina album
-              #content2.content.active
-                .row
+                        label
+                          | Bildtext
+                          textarea
                   .small-12.columns
+                    h6 SEO
                     label
-                      | Titel
+                      | Titel (max 70 tecken)
+                      input(type='text' maxlength='70')
+                    label
+                      | Beskrivning (max 150 tecken)
+                      textarea(maxlength='150')
+                    label
+                      | Sökord/taggar
                       input(type='text')
-                  .small-12.columns
-                    h6 Header
-                    label
-                      | Rubrik
-                      input(type='text')
-                    label
-                      | Text
-                      textarea
-                    img(src="http://placehold.it/900x250")
-                    a.button.expand Ladda upp bild
-                  .small-12.columns
-                    h6 Albumbilder
-                    ul.small-block-grid-1.medium-block-grid-2.large-block-grid-4
-                      li
-                        img(src="http://placehold.it/450x300")
-                        a.button.expand.alert Radera bild
-                      li
-                        img(src="http://placehold.it/450x300")
-                        a.button.expand.alert Radera bild
-                      li
-                        img(src="http://placehold.it/450x300")
-                        a.button.expand.alert Radera bild
-                      li
-                        img(src="http://placehold.it/450x300")
-                        a.button.expand.alert Radera bild
-                      li
-                        a(href='#')
-                          img(src="http://placehold.it/450x300&text=Ny bild")
-                        a.button.expand Ladda upp ny bild
-
 
         .large-2.columns.end
           a.button(href='#') Spara

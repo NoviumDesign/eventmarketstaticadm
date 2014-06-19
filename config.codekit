@@ -3573,26 +3573,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/boxlista.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/boxlista.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/boxlista.jade": {
-		"compileDebug": 1,
-		"fileType": 512,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/boxlista.jade",
-		"outputAbbreviatedPath": "\/boxlista.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0
-		},
 	"\/boxskapa.html": {
 		"fileType": 8192,
 		"ignore": 1,
@@ -3638,26 +3618,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/erbjudandelista.jade",
 		"outputAbbreviatedPath": "\/erbjudandelista.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0
-		},
-	"\/erbjudanden.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/erbjudanden.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/erbjudanden.jade": {
-		"compileDebug": 1,
-		"fileType": 512,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/erbjudanden.jade",
-		"outputAbbreviatedPath": "\/erbjudanden.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
@@ -3754,6 +3714,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
+		},
+	"\/infosidaskapa.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/infosidaskapa.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/infosidaskapa.jade": {
 		"compileDebug": 1,
@@ -3983,15 +3952,6 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
-	"\/kundkortlista.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kundkortlista.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/kundkortlista.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -3999,26 +3959,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kundkortlista.jade",
 		"outputAbbreviatedPath": "\/kundkortlista.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0
-		},
-	"\/oppenforfragan.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/oppenforfragan.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/oppenforfragan.jade": {
-		"compileDebug": 1,
-		"fileType": 512,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/oppenforfragan.jade",
-		"outputAbbreviatedPath": "\/oppenforfragan.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
@@ -4059,26 +3999,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/profilsidalist.jade",
 		"outputAbbreviatedPath": "\/profilsidalist.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0
-		},
-	"\/profilsidamail.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/profilsidamail.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/profilsidamail.jade": {
-		"compileDebug": 1,
-		"fileType": 512,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/profilsidamail.jade",
-		"outputAbbreviatedPath": "\/profilsidamail.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
@@ -4227,6 +4147,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/skapabildarkiv.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/skapabildarkiv.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/skapabildarkiv.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -4257,6 +4186,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
+		},
+	"\/skaparedaktion.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/skaparedaktion.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/skaparedaktion.jade": {
 		"compileDebug": 1,

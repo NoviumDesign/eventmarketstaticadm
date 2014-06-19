@@ -18,10 +18,12 @@ body
                     label
                       | Typ
                       select
-                        option(value='blogg') Blogg
+                        option(value='block') Block
                         option(value='veckans-vykort') Veckans Vykort
-                        option(value='nyheter') Nyheter
+                        option(value='news') News
                         option(value='postit') Postit
+                        option(value='dokument') Dokument
+                        option(value='svarta-kortet') Svarta Kortet
                   .small-3.columns.end
                     label
                       | Startdatum
@@ -56,6 +58,6 @@ body
 
 
         .large-2.columns.end
-          a.button(href='#') Skapa redaktionsinlägg
+          a.button(href='#') Spara
 
   include includes/footer
